@@ -11,12 +11,12 @@ namespace IPCS19
     /// <summary>
     ///     Interaction logic for Toolbar_Bottom.xaml
     /// </summary>
-    public partial class Toolbar_Bottom 
+    public partial class Toolbar_Bottom
     {
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Toolbar_Bottom"/> class.
+        ///     Initializes a new instance of the <see cref="Toolbar_Bottom" /> class.
         /// </summary>
         public Toolbar_Bottom()
         {

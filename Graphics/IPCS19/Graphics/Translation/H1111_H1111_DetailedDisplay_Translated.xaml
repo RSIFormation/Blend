@@ -15,27 +15,8 @@ xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
 xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
 mc:Ignorable="d">
 <MimicTemplate x:Key="H1111_H1111_DetailedDisplay_Translated" 	TargetType="{x:Type Mimic}">
-<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
-<IPCS19:UMHxxxx_GE_DetailDisplay x:Name="_UMHxxxx_GE_DetailDisplay1" Width="1630" Height="940" Canvas.Left="0" Canvas.Top="8" Visibility="Visible"
-	 Tag="H1111"/> 
-<ABBLibrary:Label x:Name="Label8"  Width="112" Height="25" Canvas.Left="463" Canvas.Top="9" LabelText="Train 1 Elutriators" /> 
-<Sadara:_05_Unit_Navigation_Arrow_Right x:Name="_05_Unit_Navigation_Arrow_Right1" Width="96" Height="16" Canvas.Left="1528" Canvas.Top="56" Visibility="Visible"
-	 Tag="FL1102"
-	CfgCustomLable=""
-	Element="$'el::FL1102:Navigation Arrow Right'"/> 
-<Sadara:_05_Unit_Navigation_Arrow_Left x:Name="_05_Unit_Navigation_Arrow_Left1" Width="96" Height="16" Canvas.Left="1528" Canvas.Top="399" Visibility="Visible"
-	 Tag="PU1101"
-	CfgCustomLable=""
-	Element="$'el::PU1101:Navigation Arrow Left'"/> 
-<ABBLibrary:Label x:Name="Label2"  Width="144" Height="25" Canvas.Left="1376" Canvas.Top="44" LabelText="To Common Vent Filter" /> 
-<ABBLibrary:Label x:Name="Label3"  Width="104" Height="25" Canvas.Left="1416" Canvas.Top="388" LabelText="Drying/ Purge Air " /> 
-<TextBlock Text="SPE Train1 Storage Silo " FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#FFE1CCA8" TextAlignment="Right" Name="Text3" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="12" Canvas.Top="46"  /> 
-<ABBLibrary:Label x:Name="Label32"  Width="40" Height="16" Canvas.Left="449" Canvas.Top="819.400024414063" LabelText="1710" /> 
-<ABBLibrary:Label x:Name="Label1"  Width="40" Height="16" Canvas.Left="449" Canvas.Top="859.400024414063" LabelText="1720" /> 
-<IPCS19:AspectLink x:Name="Aspect_View_Button22" Canvas.Left="1055" Canvas.Top="913"  Width="288" Height="24"  AspectView="$'vw::TPPS-2:Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,12 ,Regular, Bold)" Text="PU1710/20 Conveying / Palletizer" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
- 
-<IPCS19:AspectLink x:Name="Aspect_View_Button1" Canvas.Left="1352" Canvas.Top="913"  Width="272" Height="24"  AspectView="$'vw::H1111_TMS:H1111_TMS_Variables_Overrides_GE:Main View'" Font="Font( &quot;Arial&quot; ,12 ,Regular, Bold)" Text="TMS overrides and Variables" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
- 
-</Canvas></Viewbox>
-</MimicTemplate>
+	<Border Background="LightGray" VerticalAlignment="Stretch" d:DesignWidth="256.693" d:DesignHeight="275.16">
+		<TextBlock Text="Graphic generated Layer" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="96"/>
+	</Border>
+	</MimicTemplate>
 </ResourceDictionary>

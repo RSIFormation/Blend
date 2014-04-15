@@ -1,14 +1,25 @@
-﻿using System;
-using System.Text.RegularExpressions;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
-using RSI.Common.WPFTools.Helpers;
-using RSI.OTS.HMI.Controls;
-// no XGML Source Provided
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="AspectLink.xaml.cs" company="">
+//   
+// </copyright>
+// <summary>
+//   Interaction logic for AspectLink.xaml
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+ // no XGML Source Provided
 // Dependency properties created from property usage found in process graphic
 namespace IPCS19
 {
+    using System;
+    using System.Text.RegularExpressions;
+    using System.Windows;
+    using System.Windows.Controls;
+    using System.Windows.Media;
+
+    using RSI.Common.WPFTools.Helpers;
+    using RSI.OTS.HMI.Controls;
+
     /* 
     <PropertyDescriptions>
               <PropertyDescription Name="Name" Value="&quot;Aspect View Button7&quot;" />
@@ -43,228 +54,367 @@ namespace IPCS19
               <PropertyDescription Name="Tooltip" Value="&quot;&quot;" />
             </PropertyDescriptions>
     */
+
     /// <summary>
-    /// Interaction logic for AspectLink.xaml
+    ///     Interaction logic for AspectLink.xaml
     /// </summary>
     public partial class AspectLink : UserControl
     {
         // Property that identifies target
-        public static readonly DependencyProperty AspectViewProperty =
-            DependencyProperty.Register(
-            "AspectView",
-            typeof(String),
-            typeof(AspectLink),
-            new PropertyMetadata(String.Empty, AspectViewPropertyChanged)
-            );
-        public string AspectView
-        {
-            get { return (String)GetValue(AspectViewProperty); }
-            set { SetValue(AspectViewProperty, value); }
-        }
+        #region Static Fields
 
-        private string _aspectView;
+        /// <summary>
+        /// The aspect view property.
+        /// </summary>
+        public static readonly DependencyProperty AspectViewProperty = DependencyProperty.Register(
+            "AspectView", 
+            typeof(string), 
+            typeof(AspectLink), 
+            new PropertyMetadata(string.Empty, AspectViewPropertyChanged));
+
         // Translation of AspectViewProperty into known template
+        /// <summary>
+        /// The aspect view template property.
+        /// </summary>
         public static readonly DependencyProperty AspectViewTemplateProperty =
             DependencyProperty.Register(
-            "AspectViewTemplate",
-            typeof(MimicTemplate),
-            typeof(AspectLink),
-            new PropertyMetadata(null)
-            );
+                "AspectViewTemplate", 
+                typeof(MimicTemplate), 
+                typeof(AspectLink), 
+                new PropertyMetadata(null));
+
+        /// <summary>
+        /// The border color property.
+        /// </summary>
+        public static readonly DependencyProperty BorderColorProperty = DependencyProperty.Register(
+            "BorderColor", 
+            typeof(Brush), 
+            typeof(AspectLink), 
+            new PropertyMetadata(Brushes.Black));
+
+        /// <summary>
+        /// The font property.
+        /// </summary>
+        public static readonly DependencyProperty FontProperty = DependencyProperty.Register(
+            "Font", 
+            typeof(string), 
+            typeof(AspectLink));
+
+        /// <summary>
+        ///     Color of container frame
+        /// </summary>
+        public static readonly DependencyProperty FrameColor1Property = DependencyProperty.Register(
+            "FrameColor1", 
+            typeof(string), 
+            typeof(AspectLink), 
+            new PropertyMetadata("Black"));
+
+        /// <summary>
+        ///     Width of container frame
+        /// </summary>
+        public static readonly DependencyProperty FrameWidthProperty = DependencyProperty.Register(
+            "FrameWidth", 
+            typeof(double), 
+            typeof(AspectLink));
+
+        /// <summary>
+        ///     InstructorGraphic - default to true
+        ///     Controls the visibility of object visuals that are unnecessary for instructor graphics
+        /// </summary>
+        public static readonly DependencyProperty InstructorGraphicProperty =
+            DependencyProperty.Register(
+                "InstructorGraphic", 
+                typeof(Boolean), 
+                typeof(AspectLink), 
+                new PropertyMetadata(true, InstructorGraphicPropertyChanged));
+
+        /// <summary>
+        /// The text color property.
+        /// </summary>
+        public static readonly DependencyProperty TextColorProperty = DependencyProperty.Register(
+            "TextColor", 
+            typeof(string), 
+            typeof(AspectLink), 
+            new PropertyMetadata("Black"));
+
+        /// <summary>
+        /// The text property.
+        /// </summary>
+        public static readonly DependencyProperty TextProperty = DependencyProperty.Register(
+            "Text", 
+            typeof(string), 
+            typeof(AspectLink), 
+            new PropertyMetadata(string.Empty));
+
+        #endregion
+
+        #region Fields
+
+        /// <summary>
+        /// The _aspect view.
+        /// </summary>
+        private string _aspectView;
+
+        #endregion
+
+        #region Constructors and Destructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AspectLink"/> class.
+        /// </summary>
+        public AspectLink()
+        {
+            this.InitializeComponent();
+        }
+
+        #endregion
+
+        #region Public Properties
+
+        /// <summary>
+        /// Gets or sets the aspect view.
+        /// </summary>
+        public string AspectView
+        {
+            get
+            {
+                return (string)this.GetValue(AspectViewProperty);
+            }
+
+            set
+            {
+                this.SetValue(AspectViewProperty, value);
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the aspect view template.
+        /// </summary>
         public MimicTemplate AspectViewTemplate
         {
             get
             {
                 if (AspectViewTemplateProperty == null)
                 {
-                    OnAspectViewChanged();
+                    this.OnAspectViewChanged();
                 }
-                return (MimicTemplate)GetValue(AspectViewTemplateProperty);
+
+                return (MimicTemplate)this.GetValue(AspectViewTemplateProperty);
             }
-            set { SetValue(AspectViewTemplateProperty, value); }
-        }
 
-
-        // Content shown on button
-        public static readonly DependencyProperty TextProperty =
-            DependencyProperty.Register(
-            "Text",
-            typeof(String),
-            typeof(AspectLink),
-            new PropertyMetadata("")
-            );
-        public string Text
-        {
-            get { return (String)GetValue(TextProperty); }
-            set { SetValue(TextProperty, value); }
-        }
-        // Foreground color for text
-        public static readonly DependencyProperty TextColorProperty =
-            DependencyProperty.Register(
-            "TextColor",
-            typeof(String),
-            typeof(AspectLink),
-            new PropertyMetadata("Black")
-            );
-
-        public string TextColor
-        {
-            get { return (String)GetValue(TextColorProperty); }
-            set { SetValue(TextColorProperty, value); }
-        }
-        // 
-        public static readonly DependencyProperty FontProperty =
-            DependencyProperty.Register(
-            "Font",
-            typeof(String),
-            typeof(AspectLink)
-            );
-        public string Font
-        {
-            get { return (String)GetValue(FontProperty); }
-            set { SetValue(FontProperty, value); }
-        }
-        /// <summary>
-        /// Color of container frame
-        /// </summary>
-        public static readonly DependencyProperty FrameColor1Property =
-            DependencyProperty.Register(
-            "FrameColor1",
-            typeof(String),
-            typeof(AspectLink),
-            new PropertyMetadata("Black")
-            );
-        public string FrameColor1
-        {
-            get { return (String)GetValue(FrameColor1Property); }
             set
             {
-                SetValue(FrameColor1Property, value);
+                this.SetValue(AspectViewTemplateProperty, value);
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the font.
+        /// </summary>
+        public string Font
+        {
+            get
+            {
+                return (string)this.GetValue(FontProperty);
+            }
+
+            set
+            {
+                this.SetValue(FontProperty, value);
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the frame color 1.
+        /// </summary>
+        public string FrameColor1
+        {
+            get
+            {
+                return (string)this.GetValue(FrameColor1Property);
+            }
+
+            set
+            {
+                this.SetValue(FrameColor1Property, value);
                 var converter = new BrushConverter();
                 var brush = converter.ConvertFromString(value) as Brush;
-                SetValue(BorderColorProperty, brush);
+                this.SetValue(BorderColorProperty, brush);
             }
         }
-        // Dependency property to convert string FrameColor1 -> BorderBrush
-        public static readonly DependencyProperty BorderColorProperty =
-            DependencyProperty.Register(
-            "BorderColor",
-            typeof(Brush),
-            typeof(AspectLink),
-            new PropertyMetadata(Brushes.Black)
-            );
+
         /// <summary>
-        /// Width of container frame
+        /// Gets or sets the frame width.
         /// </summary>
-        public static readonly DependencyProperty FrameWidthProperty =
-            DependencyProperty.Register(
-            "FrameWidth",
-            typeof(double),
-            typeof(AspectLink)
-            );
         public double FrameWidth
         {
-            get { return (double)GetValue(FrameWidthProperty); }
-            set { SetValue(FrameWidthProperty, value); }
-        }
-
-        /// <summary>
-        /// InstructorGraphic - default to true
-        /// Controls the visibility of object visuals that are unnecessary for instructor graphics
-        /// </summary>
-        public static readonly DependencyProperty InstructorGraphicProperty =
-                   DependencyProperty.Register(
-                   "InstructorGraphic",
-                   typeof(Boolean),
-                   typeof(AspectLink),
-                   new PropertyMetadata(true, InstructorGraphicPropertyChanged)
-                   );
-        public Boolean InstructorGraphic
-        {
-            get { return (Boolean)GetValue(InstructorGraphicProperty); }
-            set { SetValue(InstructorGraphicProperty, value); }
-        }
-
-        public AspectLink()
-        {
-            InitializeComponent();
-
-        }
-        /// <summary>
-        /// Callback when InstructorGraphic dependency property changed - need to set visibility accordingly
-        /// </summary>
-        /// <param name="source"></param>
-        /// <param name="e"></param>
-        private static void InstructorGraphicPropertyChanged(DependencyObject source, DependencyPropertyChangedEventArgs e)
-        {
-            var aspect = source as AspectLink;
-            if (aspect != null) aspect.OnInstructorGraphicChanged();
-        }
-        public void OnInstructorGraphicChanged()
-        {
-            // Per Houston, AspectLinks to LogicDisplay (ie:faceplates) are not to be shown on Instructor Graphics
-            if (_aspectView == "LogicDisplay")
+            get
             {
-                AspectLinkFrame.Visibility = InstructorGraphic ? Visibility.Hidden : Visibility.Visible;
+                return (double)this.GetValue(FrameWidthProperty);
             }
 
+            set
+            {
+                this.SetValue(FrameWidthProperty, value);
+            }
         }
 
-        private static void AspectViewPropertyChanged(DependencyObject source, DependencyPropertyChangedEventArgs e)
+        /// <summary>
+        /// Gets or sets a value indicating whether instructor graphic.
+        /// </summary>
+        public bool InstructorGraphic
         {
-            var aspect = source as AspectLink;
-            if (aspect != null) aspect.OnAspectViewChanged();
+            get
+            {
+                return (Boolean)this.GetValue(InstructorGraphicProperty);
+            }
+
+            set
+            {
+                this.SetValue(InstructorGraphicProperty, value);
+            }
         }
+
+        /// <summary>
+        /// Gets or sets the text.
+        /// </summary>
+        public string Text
+        {
+            get
+            {
+                return (string)this.GetValue(TextProperty);
+            }
+
+            set
+            {
+                this.SetValue(TextProperty, value);
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the text color.
+        /// </summary>
+        public string TextColor
+        {
+            get
+            {
+                return (string)this.GetValue(TextColorProperty);
+            }
+
+            set
+            {
+                this.SetValue(TextColorProperty, value);
+            }
+        }
+
+        #endregion
+
+        #region Public Methods and Operators
+
+        /// <summary>
+        /// The on aspect view changed.
+        /// </summary>
         public void OnAspectViewChanged()
         {
-
-
             // [vw::][.:<Aspect Name>:]<View Name>
             // [vw::]<Object Symbol>:<Aspect Name>[:<View Name>]
             // eg: <PropertyDescription Name="AspectView" Value="$'vw::C3020:Graphic Display2:Main View'" />
-            //                                                    'vw::V4402:V4402_SFC:Main View'
-            if (!String.IsNullOrEmpty(AspectView))
+            // 'vw::V4402:V4402_SFC:Main View'
+            if (!string.IsNullOrEmpty(this.AspectView))
             {
-                var matchCollection = Regex.Split(AspectView, @"\$'vw::([^:]*):([^:]*):([^']*)'");
+                var matchCollection = Regex.Split(this.AspectView, @"\$'vw::([^:]*):([^:]*):([^']*)'");
                 if (matchCollection.Length == 5)
                 {
-                    var unit = matchCollection[1].Trim(new char[] { ' ' });
-                    var aspect = matchCollection[2].Trim(new char[] { ' ' });
-                    var view = matchCollection[3].Trim(new char[] { ' ' });
+                    var unit = matchCollection[1].Trim(new[] { ' ' });
+                    var aspect = matchCollection[2].Trim(new[] { ' ' });
+                    var view = matchCollection[3].Trim(new[] { ' ' });
 
-
-                    _aspectView = aspect; // Keep private copy of the parsed template id
+                    this._aspectView = aspect; // Keep private copy of the parsed template id
                     var resource = ResourceDictionaryHelper.GetTemplate(aspect);
                     if (resource == null)
                     {
                         // Band-Aid?
                         if (view == "Main View")
                         {
-                            var overview = String.Format("{0}_{1}", unit,aspect);
+                            var overview = string.Format("{0}_{1}", unit, aspect);
                             overview = overview.Replace(' ', '_');
                             resource = ResourceDictionaryHelper.GetTemplate(overview);
                         }
                     }
 
-                    SetValue(AspectViewTemplateProperty, resource);
+                    this.SetValue(AspectViewTemplateProperty, resource);
 
                     // If no Text parameter specified, or if specified as "", use
                     // the name of view's associated object 
-                  /*  if (aspect != "Logic_Display")
+                    /*  if (aspect != "Logic_Display")
                     {
-                        if (String.IsNullOrEmpty(Text))
+                        if (string.IsNullOrEmpty(Text))
                         {
                             SetValue(TextProperty, unit);
                         }
                     }
                    * */
-                    OnInstructorGraphicChanged();
+                    this.OnInstructorGraphicChanged();
+                }
+ // AspectView valid
+            }
+ // AspectView specified
+        }
 
-                }// AspectView valid
-            } // AspectView specified
+        /// <summary>
+        /// The on instructor graphic changed.
+        /// </summary>
+        public void OnInstructorGraphicChanged()
+        {
+            // Per Houston, AspectLinks to LogicDisplay (ie:faceplates) are not to be shown on Instructor Graphics
+            if (this._aspectView == "LogicDisplay")
+            {
+                this.AspectLinkFrame.Visibility = this.InstructorGraphic ? Visibility.Hidden : Visibility.Visible;
+            }
+        }
 
-        } // On AspectViewChanged
+        #endregion
 
+        #region Methods
 
+        /// <summary>
+        /// The aspect view property changed.
+        /// </summary>
+        /// <param name="source">
+        /// The source.
+        /// </param>
+        /// <param name="e">
+        /// The e.
+        /// </param>
+        private static void AspectViewPropertyChanged(DependencyObject source, DependencyPropertyChangedEventArgs e)
+        {
+            var aspect = source as AspectLink;
+            if (aspect != null)
+            {
+                aspect.OnAspectViewChanged();
+            }
+        }
+
+        /// <summary>
+        /// Callback when InstructorGraphic dependency property changed - need to set visibility accordingly
+        /// </summary>
+        /// <param name="source">
+        /// </param>
+        /// <param name="e">
+        /// </param>
+        private static void InstructorGraphicPropertyChanged(
+            DependencyObject source, 
+            DependencyPropertyChangedEventArgs e)
+        {
+            var aspect = source as AspectLink;
+            if (aspect != null)
+            {
+                aspect.OnInstructorGraphicChanged();
+            }
+        }
+
+        #endregion
+
+        // On AspectViewChanged
     }
 }

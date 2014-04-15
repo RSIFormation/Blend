@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DefaultClrNameSpace>IPCS19</DefaultClrNameSpace>
+    <AssemblyName>IPCS19</AssemblyName>
+    <RootNamespace>IPCS19</RootNamespace>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
+    <ProjectGuid>{913FF6B2-8611-4955-A91C-800588561E24}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+    <Utf8Output>true</Utf8Output>
+  </PropertyGroup>
+  <ItemGroup>
+    <Page Include="05UnitNavigationFrameUnit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AspectLink.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ColorDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GraphicElements\Train3_Graphic_Element.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GraphicElements\UMFLx10xa_GE_VentFillter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GraphicElements\UMHxxxx_GE_DetailDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GraphicElements\UMHxxxx_TMS_GE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graphics\480V_Distr_1_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\480V_Distr_2_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\480V_Distr_3_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\ConfigVars_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\EDGFuelTank_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Elect_SubStation_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\FL1102_OverView_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\FL2101_Train2_VentFilters_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\FL3102_Train3_VentFilters_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1111_H1111_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1111_TMS_H1111_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1112_H1112_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1112_TMS_H1112_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1113_H1113_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1113_TMS_H1113_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1121_H1121_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1121_TMS_H1121_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1122_H1122_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1122_TMS_H1122_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1123_H1123_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H1123_TMS_H1123_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2131_H2131_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2131_TMS_H2131_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2132_H2132_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2132_TMS_H2132_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2133_H2133_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2133_TMS_H2133_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2141_H2141_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2141_TMS_H2141_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2142_H2142_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2142_TMS_H2142_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2143_H2143_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H2143_TMS_H2143_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3111_H3111_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3111_TMS_H3111_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3112_H3112_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3112_TMS_H3112_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3113_H3113_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3113_TMS_H3113_TMS_Variables_Overrides.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3121_H3121_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3121_TMS_H3121_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3122_H3122_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3122_TMS_H3122_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3123_H3123_DetailedDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\H3123_TMS_H3123_TMS_Variables_Overrides_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\P3103_Overview_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\PU1101_Train1_2_PurgeAir_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\SanitarySumps_815_SanitarySumps_GE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\TPPS-2_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\TPPS-3_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Train1_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Train2_Graphic_Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\480V_Distr_1_Graphic_Display_Translated.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graphics\Translation\480V_Distr_2_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\480V_Distr_3_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\815_Solids_Cabinets_Diagnostics_1_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\815_Solids_Overview_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\815_Utilities_Misc_815_UtilitiesXXXX_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\ConfigVars_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\EDGFuelTank_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\Elect_SubStation_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\FL1102_OverView_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\FL2101_Train2_VentFilters_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\FL3102_Train3_VentFilters_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1111_H1111_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1111_TMS_H1111_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1112_H1112_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1112_TMS_H1112_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1113_H1113_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1113_TMS_H1113_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1121_H1121_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1121_TMS_H1121_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1122_H1122_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1122_TMS_H1122_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1123_H1123_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H1123_TMS_H1123_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2131_H2131_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2131_TMS_H2131_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2132_H2132_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2132_TMS_H2132_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2133_H2133_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2133_TMS_H2133_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2141_H2141_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2141_TMS_H2141_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2142_H2142_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2142_TMS_H2142_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2143_H2143_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H2143_TMS_H2143_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3111_H3111_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3111_TMS_H3111_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3112_H3112_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3112_TMS_H3112_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3113_H3113_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3113_TMS_H3113_TMS_Variables_Overrides_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3121_H3121_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3121_TMS_H3121_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3122_H3122_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3122_TMS_H3122_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3123_H3123_DetailedDisplay_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\H3123_TMS_H3123_TMS_Variables_Overrides_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\P3103_Overview_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\PU1101_Train1_2_PurgeAir_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\SanitarySumps_815_SanitarySumps_GE_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\TPPS_2_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\TPPS_3_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\Train1_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\Train2_Graphic_Display_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\Translation\WasteWaterSumps_815_WasteWaterSumps_Translated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Graphics\WasteWaterSumps_815_WasteWaterSumps.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ResourceDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StartPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Toolbar_Bottom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_BackPlans.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_default.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_EmulationLibraries.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\Microsoft.Expression.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.IndissPlus.Solution">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.IndissPlus.Solution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\System.Windows.Interactivity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Emulation.Controls, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\EmulationAssemblies\RSI\RSI.Emulation.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="ABBLibrary">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\EmulationAssemblies\SADARA\ABBLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SadaraLibrary">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\EmulationAssemblies\SADARA\SadaraLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="RSI.Kernel.Model.Interfaces, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Kernel.Model.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Services.UnitConverter.Interfaces">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Services.UnitConverter.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Kernel.Model.Enums">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Kernel.Model.Enums.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Services.UnitConverter.Interfaces">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Services.UnitConverter.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Common.Converters, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Common.Converters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Common.WPFTools, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Common.WPFTools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.OTS.HMI.Interfaces, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.OTS.HMI.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.OTS.HMI, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.OTS.HMI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.Services.MarkupExtensions, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.Services.MarkupExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RSI.IndissPlus.Interactions, Culture=neutral, PublicKeyToken=null">
+      <HintPath>C:\Program Files (x86)\Microsoft Expression\Blend 4\Extensions\RSI.IndissPlus.Interactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Page Include="Resources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <None Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\RSI logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="05UnitNavigationFrameUnit.xaml.cs">
+      <DependentUpon>05UnitNavigationFrameUnit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AspectLink.xaml.cs">
+      <DependentUpon>AspectLink.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicElements\Train3_Graphic_Element.xaml.cs">
+      <DependentUpon>Train3_Graphic_Element.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicElements\UMFLx10xa_GE_VentFillter.xaml.cs">
+      <DependentUpon>UMFLx10xa_GE_VentFillter.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphicElements\UMHxxxx_GE_DetailDisplay.xaml.cs">
+      <DependentUpon>UMHxxxx_GE_DetailDisplay.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphicElements\UMHxxxx_TMS_GE.xaml.cs">
+      <DependentUpon>UMHxxxx_TMS_GE.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Toolbar_Bottom.xaml.cs">
+      <DependentUpon>Toolbar_Bottom.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

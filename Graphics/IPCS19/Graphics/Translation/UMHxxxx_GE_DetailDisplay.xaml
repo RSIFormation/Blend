@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for C:\Clients\SADARA\IPCS19\Graphic_Import\UMHxxxx_GE_DetailDisplay.xgml-->
+<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+	xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+	x:Class="IPCS19.UMHxxxx_GE_DetailDisplay"
+	Width="Auto" >
+	<UserControl.Resources>
+	</UserControl.Resources>
+<Grid>
+	<!--Input Property 0 Description="The update rate for all aspect object properties subscribed for"-->
+<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
+<GroupBox Header="" Name="Groupbox17" Width="184" Height="94" Visibility="Visible" Canvas.Left="536" Canvas.Top="461" ><Canvas Width="184" Height="94" /></GroupBox> 
+<ABBLibrary:Label x:Name="Label42"  Width="48" Height="25" Canvas.Left="549" Canvas.Top="530" LabelText="FQI" /> 
+<Sadara:CalcInRealResizedDisplayElementCompactIconPreFixText x:Name="_CalcInReal_Resized_Display_Element_Compact_Icon_PreFix_Text2" Width="150" Height="40" Canvas.Left="563" Canvas.Top="513" Visibility="Visible"
+	 Tag="TotaliserSP"
+	FrameWidth="1"
+	PreFixText="SP"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="50"/> 
+<ABBLibrary:Label x:Name="Label121"  Width="48" Height="25" Canvas.Left="549" Canvas.Top="495.200012207031" LabelText="FQI" /> 
+<GroupBox Header="Level Alarms" Name="Groupbox12" Width="328" Height="84.2200012207031" Visibility="Hidden" Canvas.Left="1295" Canvas.Top="240.669006347656" ><Canvas Width="328" Height="84.2200012207031" /></GroupBox> 
+<GroupBox Header="Selector Switch" Name="Groupbox6" Width="230" Height="231.526992797852" Visibility="Hidden" Canvas.Left="982" Canvas.Top="69.4729995727539" ><Canvas Width="230" Height="231.526992797852" /></GroupBox> 
+<GroupBox Header="Selector Switch" Name="Groupbox16" Width="228" Height="207.934997558594" Visibility="Hidden" Canvas.Left="982" Canvas.Top="70.0650024414063" ><Canvas Width="228" Height="207.934997558594" /></GroupBox> 
+<Polyline Points="1221.81103515625,400.410614013672 1221.81103515625,389.678497314453 1222.78295898438,351.308502197266" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeDashArray="1 1" Name="Polyline21" Visibility="Hidden"  /> 
+<GroupBox Header="Bagging Level Control Panel" Name="Groupbox15" Width="361" Height="136" Visibility="Visible" Canvas.Left="8" Canvas.Top="417.110992431641" ><Canvas Width="361" Height="136" /></GroupBox> 
+<GroupBox Header="" Name="Groupbox7" Width="327" Height="195" Visibility="Visible" Canvas.Left="1297" Canvas.Top="409" ><Canvas Width="327" Height="195" /></GroupBox> 
+<GroupBox Header="Level Alarms" Name="Groupbox13" Width="328" Height="120.331001281738" Visibility="Hidden" Canvas.Left="1295" Canvas.Top="240.669006347656" ><Canvas Width="328" Height="120.331001281738" /></GroupBox> 
+<GroupBox Header="Belt Thrower" Name="Groupbox4" Width="256" Height="237.453994750977" Visibility="Visible" Canvas.Left="952" Canvas.Top="639.788024902344" ><Canvas Width="256" Height="237.453994750977" /></GroupBox> 
+<GroupBox Header="Bagging Machine" Name="Groupbox3" Width="272" Height="232" Visibility="Visible" Canvas.Left="384" Canvas.Top="639" ><Canvas Width="272" Height="232" /></GroupBox> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_DigitalOutput_Resized_Display_Element_General_icon1" Width="50" Height="50" Canvas.Left="588" Canvas.Top="743.200012207031" Visibility="Hidden"
+	 Tag="BagLoadComplete"
+	DataContext="{UnitBinding BagLoadComplete}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<GroupBox Header="Lower Level Control Panel" Name="Groupbox11" Width="361" Height="169.714004516602" Visibility="Visible" Canvas.Left="8" Canvas.Top="759.429016113281" ><Canvas Width="361" Height="169.714004516602" /></GroupBox> 
+<ABBLibrary:Label x:Name="Label55"  Width="265.558" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="903.033996582031" LabelText="Blk Ld Lower Control Panel Load Complete" /> 
+<GroupBox Header="Silo Operation" Name="Groupbox1" Width="361" Height="256" Visibility="Visible" Canvas.Left="8" Canvas.Top="147" ><Canvas Width="361" Height="256" /></GroupBox> 
+<GroupBox Header="Tilted Container" Name="Groupbox8" Width="256" Height="81.6060028076172" Visibility="Visible" Canvas.Left="676" Canvas.Top="639" ><Canvas Width="256" Height="81.6060028076172" /></GroupBox> 
+<Polyline Points="801,631.1201171875 801,471.395111083984 801,471.395111083984" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline5" Visibility="Visible"  /> 
+<ABBLibrary:Label x:Name="Label26"  Width="205.241" Height="16" Canvas.Left="1303" Canvas.Top="437" LabelText="Silo Discharge Proximity Switch" /> 
+<ABBLibrary:Label x:Name="Label28"  Width="224" Height="16" Canvas.Left="1303" Canvas.Top="510" LabelText="Telescopic Loading Chute Connected" /> 
+<Polyline Points="912,57 1608,57" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline8" Visibility="Visible"  /> 
+<Polyline Points="801,21 801,34.5995101928711 801,34.5995101928711" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline9" Visibility="Visible"  /> 
+<Canvas Canvas.Left="807" Canvas.Top="28" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone7" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1602.03698730469,400.166687011719 912,400 943.394897460938,400.166687011719" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline3" Visibility="Hidden"  /> 
+<Canvas Canvas.Left="909" Canvas.Top="406" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone8" Visibility="Hidden" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="180" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="945,401 945,461.645111083984 945,461.645111083984" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline4" Visibility="Hidden"  /> 
+<Canvas Canvas.Left="950" Canvas.Top="452" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone12" Visibility="Hidden" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="818.641174316406,462 945.054016113281,462 945.054016113281,462" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline17" Visibility="Hidden"  /> 
+<Canvas Canvas.Left="693" Canvas.Top="396.5" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone13" Visibility="Hidden" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path></Canvas> 
+<Canvas Canvas.Left="660" Canvas.Top="467" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone14" Visibility="Hidden" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="180" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="650,401.879913330078 650,462.318908691406 650,462.318908691406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline20" Visibility="Hidden"  /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button10" Canvas.Left="813" Canvas.Top="535"  Width="16" Height="16"  AspectView="$'vw::HSxxxx04:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<Polyline Points="649.711791992188,462 779.259582519531,462 779.259582519531,462" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline1" Visibility="Hidden"  /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon1" Width="40" Height="40" Canvas.Left="296" Canvas.Top="160" Visibility="Visible"
+	 Tag="XIxxxx12"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label45"  Width="200" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="180" LabelText="Silo in Remote Mode" /> 
+<TextBlock FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="1.333" Foreground="#FFFF00FF" Background="#FFFF00FF" TextAlignment="Left" Name="Flow1" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="1214" Canvas.Top="393"  /> 
+<Sadara:ValveResizedDisplayElementFlexibleIcon x:Name="_Valve_Resized_Display_Element_Flexible_Icon2" Width="50" Height="50" Canvas.Left="771" Canvas.Top="545" Visibility="Visible"
+	 Tag="HSxxxx04"
+	DataContext="{UnitBinding ABV04}"
+	ActuatorPositionType="Top"
+	ActuatorType="Square"
+	ClosedColor="#FFFF00FF"
+	ManualLeverWidth="5"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	ShaftWidth="2"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	Use3DIcon="True"
+	ValveType="P2_NC">
+	<Sadara:ValveResizedDisplayElementFlexibleIcon.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="270" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Sadara:ValveResizedDisplayElementFlexibleIcon.RenderTransform>
+</Sadara:ValveResizedDisplayElementFlexibleIcon> 
+<Polyline Points="800.396484375,558.968872070313 1088,608" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline7" Visibility="Visible"  /> 
+<Polyline Points="1088.78796386719,607.022521972656 1088.5,632.620727539063 1088.5,632.620727539063" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline2" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1094" Canvas.Top="629.994995117188" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone2" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Sadara:TankVertical x:Name="Silos_Dome2"  Width="256" Height="448" Canvas.Left="673" Canvas.Top="36"/> 
+<Sadara:Transmitter6DHDisplayElementBarIcon x:Name="_Transmitter6DH_Display_Element_Bar_Icon1" Width="22" Height="304" Canvas.Left="684" Canvas.Top="67" Visibility="Visible"
+	 Tag="LTxxxx01"
+	 BarGraphOrientation="Vertical" ContentsColor="Red"	 
+	DataContext="{UnitBinding TT810511}"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon5" Width="50" Height="50" Canvas.Left="852" Canvas.Top="297.5" Visibility="Visible"
+	 Tag="XSxxxx25"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label23"  Width="96" Height="25" Canvas.Left="714" Canvas.Top="316" LabelText="Released to PE " /> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_BoolOutput_Resized_Display_Element_General_icon12" Width="50" Height="50" Canvas.Left="852" Canvas.Top="345" Visibility="Hidden"
+	 Tag="Ult_WashReqd"
+	DataContext="{UnitBinding Ult_WashReqd}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label31"  Width="96" Height="25" Canvas.Left="714" Canvas.Top="362.5" LabelText="Wash Required " /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text6" Width="150" Height="40" Canvas.Left="762" Canvas.Top="256" Visibility="Visible"
+	 Tag="PTxxxx02"
+	DataContext="{UnitBinding PTxxxx02}"
+	FrameWidth="1"
+	PreFixText="PI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="50"/> 
+<TextBlock FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="1.333" Foreground="#FFFF00FF" Background="#FFFF00FF" TextAlignment="Left" Name="Pressure3" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="714" Canvas.Top="279"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text7" Width="150" Height="40" Canvas.Left="762" Canvas.Top="214.5" Visibility="Visible"
+	 Tag="LTxxxx01"
+	DataContext="{UnitBinding LTxxxx01}"
+	FrameWidth="1"
+	PreFixText="LI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="50"/> 
+<TextBlock FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="1.333" Foreground="#FFFF00FF" Background="#FFFF00FF" TextAlignment="Left" Name="Level3" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="714" Canvas.Top="235.5"  /> 
+<ABBLibrary:Label x:Name="Label5"  Width="160.924" Height="16" Canvas.Left="682" Canvas.Top="658" LabelText="Load Request " /> 
+<ABBLibrary:Label x:Name="Label29"  Width="184" Height="16" Canvas.Left="682" Canvas.Top="692.599975585938" LabelText="Tilt Container Load Complete" /> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_BoolOutput_Resized_Display_Element_General_icon7" Width="50" Height="50" Canvas.Left="868" Canvas.Top="672" Visibility="Hidden"
+	 Tag="TiltLdComplete"
+	DataContext="{UnitBinding TiltLdComplete}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Canvas Canvas.Left="807" Canvas.Top="629.994995117188" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone3" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="509.090911865234,582.636413574219 509.090911865234,632.121215820313 509.5,628.97607421875" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline11" Visibility="Visible"  /> 
+<Canvas Canvas.Left="515" Canvas.Top="628.994995117188" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone4" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<ABBLibrary:Label x:Name="Label2"  Width="136" Height="16" Canvas.Left="955" Canvas.Top="811.400024414063" LabelText="Belt Thrower Fault" /> 
+<ABBLibrary:Label x:Name="Label1"  Width="152" Height="16" Canvas.Left="955" Canvas.Top="772.799987792969" LabelText="Belt Thrower Status" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon8" Width="40" Height="40" Canvas.Left="1145" Canvas.Top="674" Visibility="Visible"
+	 Tag="ZIxxxxx0"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon3" Width="50" Height="50" Canvas.Left="1140" Canvas.Top="710.599975585938" Visibility="Visible"
+	 Tag="HSxxxxx7"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon9" Width="40" Height="40" Canvas.Left="1145" Canvas.Top="755.200012207031" Visibility="Visible"
+	 Tag="XIxxxxx8"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon10" Width="40" Height="40" Canvas.Left="1145" Canvas.Top="791.799987792969" Visibility="Visible"
+	 Tag="XAxxxxx9"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label3"  Width="152" Height="16" Canvas.Left="955" Canvas.Top="692.599975585938" LabelText="Belt Thrower Connected" /> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_BoolOutput_Resized_Display_Element_General_icon10" Width="50" Height="50" Canvas.Left="1140" Canvas.Top="828" Visibility="Hidden"
+	 Tag="BeltLdComplete"
+	DataContext="{UnitBinding BeltLdComplete}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label16"  Width="152" Height="16" Canvas.Left="955" Canvas.Top="736.200012207031" LabelText="Belt Thrower Enabled" /> 
+<ABBLibrary:Label x:Name="Label20"  Width="168" Height="16" Canvas.Left="953" Canvas.Top="658" LabelText="Load Request " /> 
+<ABBLibrary:Label x:Name="Label22"  Width="176" Height="16" Canvas.Left="955" Canvas.Top="851" LabelText="Belt Thrower Load Complete" /> 
+<Polyline Points="801.212097167969,559.674926757813 1360,616 1360.30297851563,632.121215820313" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline14" Visibility="Visible"  /> 
+<ABBLibrary:Label x:Name="Label13"  Width="176" Height="16" Canvas.Left="385" Canvas.Top="688.599975585938" LabelText="Bagging Machine Connected" /> 
+<ABBLibrary:Label x:Name="Label14"  Width="160" Height="16" Canvas.Left="385" Canvas.Top="658" LabelText="Load Request " /> 
+<ABBLibrary:Label x:Name="Label15"  Width="160" Height="16" Canvas.Left="385" Canvas.Top="767.200012207031" LabelText="Bagging Load Complete" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon11" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="420" Visibility="Visible"
+	 Tag="ZIxxxx23"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon13" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="495" Visibility="Visible"
+	 Tag="ZIxxxxx5"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Polyline Points="508.670104980469,584.468872070313 803.669982910156,558.968872070313" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline6" Visibility="Visible"  /> 
+<ABBLibrary:Label x:Name="Label17"  Width="48" Height="25" Canvas.Left="714" Canvas.Top="85.75" LabelText="Prod.ID" /> 
+ 
+<ABBLibrary:Label x:Name="Label21"  Width="52" Height="25" Canvas.Left="714" Canvas.Top="191" LabelText="Invent." /> 
+<Sadara:CalcInRealResizedDisplayElementCompactIconPreFixText x:Name="_CalcInReal_Resized_Display_Element_Compact_Icon_PreFix_Text1" Width="150" Height="40" Canvas.Left="762" Canvas.Top="174" Visibility="Visible"
+	 Tag="MassFill"
+	FrameWidth="1"
+	PreFixText=""
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="False"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="70"/> 
+<ABBLibrary:Label x:Name="Label19"  Width="64.059" Height="25" Canvas.Left="714" Canvas.Top="117" LabelText="Lot No." /> 
+ 
+<ABBLibrary:Label x:Name="Label6"  Width="144" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="451" LabelText="Bagging Level Stop PB" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon3" Width="40" Height="40" Canvas.Left="293" Canvas.Top="431" Visibility="Visible"
+	 Tag="XIxxxx11A"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon6" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="531" Visibility="Visible"
+	 Tag="LAHxxxxx6B"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label47"  Width="128" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="220" LabelText="Ready to Load Lamp" /> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon2" Width="50" Height="50" Canvas.Left="288" Canvas.Top="197.800003051758" Visibility="Visible"
+	 Tag="XSxxxx14"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button1" Canvas.Left="344" Canvas.Top="230"  Width="16" Height="16"  AspectView="$'vw::XSxxxx14:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<GroupBox Header="Operator Inputs" Name="Groupbox9" Width="328" Height="158.934997558594" Visibility="Visible" Canvas.Left="1295" Canvas.Top="70.0650024414063" ><Canvas Width="328" Height="158.934997558594" /></GroupBox> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Resized_Display_Element_General_icon2" Width="96" Height="48" Canvas.Left="1521" Canvas.Top="86" Visibility="Visible"
+	 Tag="Op_Hxxxx_DualOprCnf"
+	DataContext="{UnitBinding Op_Hxxxx_DualOprCnf}"/> 
+<ABBLibrary:Label x:Name="Label46"  Width="212.249" Height="16" Canvas.Left="1300" Canvas.Top="136.332992553711" LabelText="Override Bulk Load Check Enabled" /> 
+<ABBLibrary:Label x:Name="Label50"  Width="200" Height="16" Canvas.Left="1300" Canvas.Top="102" LabelText="Confirm Dual Operation Enabled" /> 
+<ABBLibrary:Label x:Name="Label51"  Width="208" Height="16" Canvas.Left="1300" Canvas.Top="170.667007446289" LabelText="Force Completion of Bulk Loading" /> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon1" Width="96" Height="48" Canvas.Left="1521" Canvas.Top="119.333000183105" Visibility="Visible"
+	 Tag="Op_Hxxxx_BlkLdChkOvr"
+	DataContext="{UnitBinding Op_Hxxxx_BlkLdChkOvr}"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon2" Width="96" Height="48" Canvas.Left="1521" Canvas.Top="153.667007446289" Visibility="Visible"
+	 Tag="Op_Hxxxx_StopBulkLd"
+	DataContext="{UnitBinding Op_Hxxxx_StopBulkLd}"/> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button2" Canvas.Left="896" Canvas.Top="327.5"  Width="16" Height="16"  AspectView="$'vw::XSxxxx25:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button3" Canvas.Left="896" Canvas.Top="372"  Width="16" Height="16"  AspectView="$'vw::Calcs:Act_Ult_WashReqd SFC Viewer:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button4" Canvas.Left="639" Canvas.Top="768.200012207031"  Width="16" Height="16"  AspectView="$'vw::BagLdCompltButn:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button5" Canvas.Left="913" Canvas.Top="699.599975585938"  Width="16" Height="16"  AspectView="$'vw::Calcs:Act_TiltLdComplete SFC Viewer:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button6" Canvas.Left="1185" Canvas.Top="738.599975585938"  Width="16" Height="16"  AspectView="$'vw::HSxxxxx7:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button7" Canvas.Left="1185" Canvas.Top="857"  Width="16" Height="16"  AspectView="$'vw::Calcs:Act_BeltLdComplete SFC Viewer:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<ABBLibrary:Label x:Name="Label11"  Width="56" Height="16" Canvas.Left="985" Canvas.Top="100" LabelText="Bagging" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon14" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="82" Visibility="Visible"
+	 Tag="XIxxxx13A"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon15" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="118.400001525879" Visibility="Visible"
+	 Tag="XIxxxx13B"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon16" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="154.800003051758" Visibility="Visible"
+	 Tag="XIxxxx13C"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon17" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="191.199996948242" Visibility="Visible"
+	 Tag="XIxxxx13D"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon18" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="227" Visibility="Hidden"
+	 Tag="XI31x013E"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label18"  Width="80" Height="16" Canvas.Left="985" Canvas.Top="136.199996948242" LabelText="TiltContainer" /> 
+<ABBLibrary:Label x:Name="Label24"  Width="80" Height="16" Canvas.Left="985" Canvas.Top="172.399993896484" LabelText="BeltThrower" /> 
+<ABBLibrary:Label x:Name="Label33"  Width="80" Height="16" Canvas.Left="985" Canvas.Top="208.600006103516" LabelText="HopperTruck" /> 
+<ABBLibrary:Label x:Name="Label34"  Width="88" Height="16" Canvas.Left="985" Canvas.Top="245" LabelText="Silo Wash" /> 
+<Polyline Points="459.089111328125,23 802,23 802,23" Stroke="#FFA0A0A0" StrokeThickness="4" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline10" Visibility="Visible"  /> 
+<ABBLibrary:Label x:Name="Label4"  Width="128" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="260" LabelText="Silo Empty(PB)" /> 
+<ABBLibrary:Label x:Name="Label9"  Width="160" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="300" LabelText="Silo Released to PE Lamp" /> 
+<ABBLibrary:Label x:Name="Label35"  Width="160" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="340" LabelText="Silo Available to PE" /> 
+<ABBLibrary:Label x:Name="Label36"  Width="160" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="380" LabelText="Silo Reserved by PE" /> 
+<ABBLibrary:Label x:Name="Label37"  Width="152" Height="16" Canvas.Left="385" Canvas.Top="725.466979980469" LabelText="Bagging Complete PB" /> 
+<ABBLibrary:Label x:Name="Label41"  Width="144" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="488" LabelText="Bagging Level Start PB" /> 
+<ABBLibrary:Label x:Name="Label43"  Width="184" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="525" LabelText="Control Panel Load Complete" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon22" Width="40" Height="40" Canvas.Left="293" Canvas.Top="467" Visibility="Visible"
+	 Tag="XIxxxx11B"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<GroupBox Header="Upper Level Control Panel" Name="Groupbox10" Width="361" Height="174.429000854492" Visibility="Visible" Canvas.Left="8" Canvas.Top="569.570983886719" ><Canvas Width="361" Height="174.429000854492" /></GroupBox> 
+<ABBLibrary:Label x:Name="Label52"  Width="240" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="792" LabelText="Bulk Load Lower  Level Stop PB" /> 
+<ABBLibrary:Label x:Name="Label53"  Width="200" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="829.010986328125" LabelText="Bulk Load Lower  Level Start PB" /> 
+<ABBLibrary:Label x:Name="Label54"  Width="248" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="866.023010253906" LabelText="Bulk Load Lower Control Panel Enabled" /> 
+<ABBLibrary:Label x:Name="Label56"  Width="160" Height="16" Canvas.Left="985" Canvas.Top="281" LabelText="Loading Selector Problem" /> 
+<ABBLibrary:Label x:Name="Label57"  Width="216" Height="16" Canvas.Left="1303" Canvas.Top="269" LabelText="Positive Rate of Level Change High" /> 
+<ABBLibrary:Label x:Name="Label58"  Width="232" Height="16" Canvas.Left="1303" Canvas.Top="305.5" LabelText="Negative Rate of Level Change High" /> 
+<ABBLibrary:Label x:Name="Label61"  Width="224" Height="16" Canvas.Left="1303" Canvas.Top="583" LabelText="Mobile Equipment Line-up Problem" /> 
+<ABBLibrary:Label x:Name="Label62"  Width="222.345" Height="16" Canvas.Left="1303" Canvas.Top="473.5" LabelText="Mobile Transition Connected" /> 
+<ABBLibrary:Label x:Name="Label59"  Width="232" Height="16" Canvas.Left="1303" Canvas.Top="546.5" LabelText="Telescopic Loading Chute Level High" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon2" Width="40" Height="40" Canvas.Left="293" Canvas.Top="241.600006103516" Visibility="Visible"
+	 Tag="XIxxxx22"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon4" Width="50" Height="50" Canvas.Left="288" Canvas.Top="275.399993896484" Visibility="Visible"
+	 Tag="XSxxxx25"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon6" Width="50" Height="50" Canvas.Left="288" Canvas.Top="321.200012207031" Visibility="Visible"
+	 Tag="XSxxxx29"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon19" Width="40" Height="40" Canvas.Left="293" Canvas.Top="363" Visibility="Visible"
+	 Tag="XIxxxx30"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label7"  Width="240" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="598.3330078125" LabelText="Bulk Load Upper  Level Stop PB" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon4" Width="40" Height="40" Canvas.Left="293" Canvas.Top="581.3330078125" Visibility="Visible"
+	 Tag="XAxxxxx3A"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label44"  Width="200" Height="16" Canvas.Left="14.4940004348755" Canvas.Top="638.666015625" LabelText="Bulk Load Upper  Level Start PB" /> 
+<ABBLibrary:Label x:Name="Label48"  Width="248" Height="16" Canvas.Left="13.4940004348755" Canvas.Top="679" LabelText="Bulk Load Upper Control Panel Enabled" /> 
+<ABBLibrary:Label x:Name="Label49"  Width="264" Height="16" Canvas.Left="11.4940004348755" Canvas.Top="719.3330078125" LabelText="Blk Ld Upper Control Panel Load Complete" /> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon21" Width="40" Height="40" Canvas.Left="293" Canvas.Top="615.888977050781" Visibility="Visible"
+	 Tag="XIxxxxx3B"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon7" Width="50" Height="50" Canvas.Left="288" Canvas.Top="695" Visibility="Visible"
+	 Tag="XSxxxxx3"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon24" Width="40" Height="40" Canvas.Left="293" Canvas.Top="773" Visibility="Visible"
+	 Tag="XAxxxxx4A"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon26" Width="40" Height="40" Canvas.Left="293" Canvas.Top="806.6669921875" Visibility="Visible"
+	 Tag="XIxxxxx4B"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon8" Width="50" Height="50" Canvas.Left="288" Canvas.Top="884" Visibility="Visible"
+	 Tag="XSxxxxx4"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon9" Width="50" Height="50" Canvas.Left="288" Canvas.Top="652.443969726563" Visibility="Visible"
+	 Tag="XSxxxxx1"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon11" Width="50" Height="50" Canvas.Left="288" Canvas.Top="840.3330078125" Visibility="Visible"
+	 Tag="XSxxxxx2"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon20" Width="40" Height="40" Canvas.Left="592" Canvas.Top="708" Visibility="Visible"
+	 Tag="XIxxxx16"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_DigitalInput_Resized_Display_Element_General_icon27" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="454" Visibility="Visible"
+	 Tag="ZIyyyyy5"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Canvas Canvas.Left="1366" Canvas.Top="629.994995117188" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone5" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text2" Width="150" Height="40" Canvas.Left="1125" Canvas.Top="316" Visibility="Hidden"
+	 Tag="FTxxxx03"
+	DataContext="{UnitBinding FTxxxx03}"
+	FrameWidth="1"
+	PreFixText="FI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="65"/> 
+<Sadara:DigitalOutputResizedDisplayElementGeneralIcon x:Name="_DigitalOutput_Resized_Display_Element_General_icon10" Width="50" Height="50" Canvas.Left="288" Canvas.Top="503" Visibility="Visible"
+	 Tag="XSxxxx17"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon4" Width="40" Height="40" Canvas.Left="592" Canvas.Top="673" Visibility="Visible"
+	 Tag="ZIxxxxx2"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button9" Canvas.Left="344" Canvas.Top="307"  Width="16" Height="16"  AspectView="$'vw::XSxxxx25:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button11" Canvas.Left="344" Canvas.Top="350"  Width="16" Height="16"  AspectView="$'vw::XSxxxx29:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button12" Canvas.Left="344" Canvas.Top="534"  Width="16" Height="16"  AspectView="$'vw::XSxxxx17:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button13" Canvas.Left="344" Canvas.Top="684"  Width="16" Height="16"  AspectView="$'vw::XSxxxxx1:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button14" Canvas.Left="344" Canvas.Top="726"  Width="16" Height="16"  AspectView="$'vw::XSxxxxx3:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button15" Canvas.Left="344" Canvas.Top="865"  Width="16" Height="16"  AspectView="$'vw::XSxxxxx2:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button16" Canvas.Left="344" Canvas.Top="909"  Width="16" Height="16"  AspectView="$'vw::XSxxxxx4:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text30" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1129.30798339844" Canvas.Top="648.705017089844"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text32" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="576" Canvas.Top="648.705017089844"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text33" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="856.5" Canvas.Top="648.705017089844"  /> 
+<GroupBox Header="Hopper Truck" Name="Groupbox5" Width="288" Height="201.464004516602" Visibility="Visible" Canvas.Left="1241" Canvas.Top="639.757995605469" ><Canvas Width="288" Height="201.464004516602" /></GroupBox> 
+<ABBLibrary:Label x:Name="Label25"  Width="160" Height="16" Canvas.Left="1246" Canvas.Top="657" LabelText="Load Request " /> 
+<ABBLibrary:Label x:Name="Label30"  Width="184" Height="16" Canvas.Left="1246" Canvas.Top="815.599975585938" LabelText="Hopper Truck Load Complete" /> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_BoolOutput_Resized_Display_Element_General_icon11" Width="50" Height="50" Canvas.Left="1462" Canvas.Top="792.599975585938" Visibility="Hidden"
+	 Tag="HopLoadComplete"
+	DataContext="{UnitBinding HopLoadComplete}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button8" Canvas.Left="1506" Canvas.Top="820.599975585938"  Width="16" Height="16"  AspectView="$'vw::Calcs:Act_HopLoadComplete SFC Viewer:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<ABBLibrary:Label x:Name="Label38"  Width="160" Height="16" Canvas.Left="1246" Canvas.Top="692.900024414063" LabelText="No. of Compartments" /> 
+<ABBLibrary:Label x:Name="Label39"  Width="160" Height="16" Canvas.Left="1246" Canvas.Top="732.799987792969" LabelText="Current Compartment" /> 
+<ABBLibrary:Label x:Name="Label40"  Width="160" Height="16" Canvas.Left="1246" Canvas.Top="772.700012207031" LabelText="Compartment Target" /> 
+<Sadara:CalcInRealResizedDisplayElementCompactIconPreFixText x:Name="_CalcInReal_Resized_Display_Element_Compact_Icon_PreFix_Text3" Width="152" Height="40" Canvas.Left="1371" Canvas.Top="671.400024414063" Visibility="Visible"
+	 Tag="Ult_HopNumCmprt"
+	FrameWidth="1"
+	PreFixText=""
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="65"/> 
+<Sadara:CalcInRealResizedDisplayElementCompactIconPreFixText x:Name="_CalcInReal_Resized_Display_Element_Compact_Icon_PreFix_Text4" Width="150" Height="40" Canvas.Left="1372" Canvas.Top="751.200012207031" Visibility="Visible"
+	 Tag="HopCompartTargt"
+	FrameWidth="1"
+	PreFixText=""
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="65"/> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text34" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1450.61499023438" Canvas.Top="647.705017089844"  /> 
+<Sadara:CalcInRealResizedDisplayElementCompactIconPreFixText x:Name="_CalcInReal_Resized_Display_Element_Compact_Icon_PreFix_Text5" Width="152" Height="40" Canvas.Left="1371" Canvas.Top="711.400024414063" Visibility="Visible"
+	 Tag="HopCompartNum"
+	FrameWidth="1"
+	PreFixText=""
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<TextBlock Text="UMHxxxx" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text1" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="8" Canvas.Top="10"  /> 
+<GroupBox Header="Current Step" Name="Groupbox14" Width="240" Height="50" Visibility="Visible" Canvas.Left="10" Canvas.Top="70" ><Canvas Width="240" Height="50" /></GroupBox> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button23" Canvas.Left="23" Canvas.Top="89"  Width="216" Height="25"  AspectView="$'vw::UMHxxxx:SFC Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,10 ,Regular, Bold)" Text="Unsupported" TextColor="$'lc::Process Graphics 2 Colors:SymbolLabelColor'" FrameWidth="0." FrameColor1="ARGB(0,0,0,0)" />
+ 
+<TextBlock Text="UMHxxxx" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text2" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="774" Canvas.Top="47"  /> 
+<Canvas Canvas.Left="1141" Canvas.Top="51.5" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone1" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path></Canvas> 
+<Sadara:BoolInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon1" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="567" Visibility="Visible"
+	 Tag="HxxxxMobleEquip_Prob"
+	DataContext="{UnitBinding HxxxxMobleEquip_Prob}"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label8"  Width="120" Height="16" Canvas.Left="1303" Canvas.Top="342" LabelText="Wash Level High" /> 
+<Sadara:BoolInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon5" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="324" Visibility="Hidden"
+	 Tag="LTxxxx01WashHi"
+	DataContext="{UnitBinding LTxxxx01WashHi}"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<ABBLibrary:Label x:Name="Label10"  Width="160" Height="16" Canvas.Left="985" Canvas.Top="244.800003051758" LabelText="Loading Selector Problem" /> 
+<Polyline Points="698.48876953125,402 650.016723632813,402 650.016723632813,402" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline12" Visibility="Hidden"  /> 
+<Sadara:CalcInRealResizedDisplayElementCompactIconPreFixText x:Name="_CalcInReal_Resized_Display_Element_Compact_Icon_PreFix_Text7" Width="150" Height="40" Canvas.Left="563" Canvas.Top="473" Visibility="Visible"
+	 Tag="BulkLoadFlowTOT"
+	FrameWidth="1"
+	PreFixText=""
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="50"/> 
+<ABBLibrary:Label x:Name="Label12"  Width="208" Height="16" Canvas.Left="1300" Canvas.Top="205" LabelText="Operator Requests Silo Rewash" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button17" Canvas.Left="1189" Canvas.Top="254.600006103516"  Width="16" Height="16"  AspectView="$'vw::LdngSelectorPblm:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button18" Canvas.Left="1605" Canvas.Top="583"  Width="16" Height="16"  AspectView="$'vw::MobileEquipPblm:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button19" Canvas.Left="1189" Canvas.Top="280.600006103516"  Width="16" Height="16"  AspectView="$'vw::LdngSelectorPblm:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon4" Width="100" Height="45" Canvas.Left="1517" Canvas.Top="189" Visibility="Hidden"
+	 Tag="Op_Hxxxx_ReWashReqd"
+	DataContext="{UnitBinding Op_Hxxxx_ReWashReqd}"/> 
+<ABBLibrary:Label x:Name="Label32"  Width="136" Height="16" Canvas.Left="385" Canvas.Top="811.400024414063" LabelText="Bag To PU" /> 
+<ABBLibrary:Label x:Name="Label60"  Width="112" Height="16" Canvas.Left="385" Canvas.Top="851" LabelText="Bag To PU" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button20" Canvas.Left="639" Canvas.Top="810.200012207031"  Width="16" Height="16"  AspectView="$'vw::ReservePU01:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button21" Canvas.Left="639" Canvas.Top="853.200012207031"  Width="16" Height="16"  AspectView="$'vw::ReservePU02:Logic Display:Main View'" Font="Font( &quot;MS Sans Serif&quot; ,8 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="1." FrameColor1="RGB(200,200,200)" />
+ 
+<ABBLibrary:Label x:Name="Label63"  Width="64.059" Height="25" Canvas.Left="714" Canvas.Top="148.25" LabelText="Task Ref" /> 
+ 
+<Sadara:BoolInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon8" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="228" Visibility="Hidden"
+	 Tag="HSxxxx13_Problem"
+	DataContext="{UnitBinding HSxxxx13_Problem}"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon6" Width="40" Height="40" Canvas.Left="1155" Canvas.Top="264" Visibility="Hidden"
+	 Tag="HSxxxx13_Problem"
+	DataContext="{UnitBinding HSxxxx13_Problem}"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_BoolOutput_Resized_Display_Element_General_icon4" Width="50" Height="50" Canvas.Left="588" Canvas.Top="786.099975585938" Visibility="Hidden"
+	 Tag="ReservePU01"
+	DataContext="{UnitBinding ReservePU01}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutputResizedDisplayElementGeneralicon x:Name="_BoolOutput_Resized_Display_Element_General_icon1" Width="50" Height="50" Canvas.Left="588" Canvas.Top="829" Visibility="Hidden"
+	 Tag="ReservePU02"
+	DataContext="{UnitBinding ReservePU02}"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button24" Canvas.Left="861.5" Canvas.Top="905"  Width="184" Height="24"  AspectView="$'vw::ConfigVars:Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,12 ,Regular, Bold)" Text="Configurable Variables" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<Sadara:BoolInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon2" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="288" Visibility="Visible"
+	 Tag="LTxxxx01NegROC"
+	DataContext="{UnitBinding LTxxxx01NegROC}"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolInputResizedDisplayElementGeneralIcon x:Name="_BoolInput_Resized_Display_Element_General_icon3" Width="40" Height="40" Canvas.Left="1564" Canvas.Top="253" Visibility="Visible"
+	 Tag="LTxxxx01PosROC"
+	DataContext="{UnitBinding LTxxxx01PosROC}"
+	BaseColor="#FF000000"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="1"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+</Canvas></Viewbox>
+</Grid>
+</UserControl>

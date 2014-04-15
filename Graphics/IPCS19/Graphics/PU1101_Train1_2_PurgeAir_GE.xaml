@@ -1,0 +1,74 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+<ResourceDictionary.MergedDictionaries>
+<ResourceDictionary Source="Translation/PU1101_Train1_2_PurgeAir_GE_Translated.xaml" />
+</ResourceDictionary.MergedDictionaries>
+<MimicTemplate x:Key="PU1101_Train1_2_PurgeAir_GE" UniqueId="PU1101_Train1_2_PurgeAir_GE">
+    <Grid>
+<!--  Graphic Part  -->
+<Mimic x:Name="GRAPHIC"
+      d:IsLocked="True"
+     MimicTemplate="{StaticResource PU1101_Train1_2_PurgeAir_GE_Translated}" />
+
+
+<!-- FOD Part -->
+ <Viewbox x:Name='FOD' Visibility='{FODBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FODStart -->
+<Mimic x:Name='IA_FR_ATM1' Unit='IA_FR_ATM1' MimicTemplate='{DynamicResource INLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='FOD8151101A01' Unit='FOD8151101A01' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='FOD8151101A02' Unit='FOD8151101A02' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='130'/>
+<Mimic x:Name='FOD8151101A03' Unit='FOD8151101A03' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='190'/>
+<Mimic x:Name='PCV110107_PID' Unit='PCV110107_PID' MimicTemplate='{DynamicResource REGULATOR_ABB_FOD}' Canvas.Top='10' Canvas.Left='250'/>
+<Mimic x:Name='FL1106' Unit='FL1106' MimicTemplate='{DynamicResource FILTER_ABB_FOD}' Canvas.Top='10' Canvas.Left='310'/>
+<!-- FODEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- Battery Limit Part -->
+ <Viewbox x:Name='BL' Visibility="{BLBinding}" >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- BLStart -->
+<Mimic x:Name='IA_FR_3801' Unit='IA_FR_3801' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='BatteryLimit1' Unit='BatteryLimit1' MimicTemplate='{DynamicResource OUTLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='70'/>
+<!-- BLEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- FAILURE Part -->
+ <Viewbox x:Name='FAILURE' Visibility='{FAILUREBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FAILUREStart -->
+<Mimic x:Name='FL1106_FAILURE' Unit='FL1106' MimicTemplate='{DynamicResource FILTER_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='10'/>
+<!-- FAILUREEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+ </Grid>
+ </MimicTemplate>
+</ResourceDictionary>

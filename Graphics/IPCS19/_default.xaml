@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+                    xmlns:IPCS19="clr-namespace:IPCS19"
+                    mc:Ignorable="d">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="StartPage.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate x:Key="MainPart_Detached">
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    TextElement.FontSize="72">
+            <TextBlock HorizontalAlignment="Center" Text="Connected ! " />
+            <TextBlock Margin="0,10,0,0"
+                       HorizontalAlignment="Center"
+                       Text="Waiting for simulator..." />
+        </StackPanel>
+    </DataTemplate>
+
+    <DataTemplate x:Key="MainPart_Disconnected">
+        <TextBlock HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="72"
+                   Text="Trying to connect on IndissPlus" />
+    </DataTemplate>
+
+    <!--  Template displayed once simulator available  -->
+    <DataTemplate x:Key="MainPart_Attached">
+
+        <DockPanel Background="Silver">
+
+            <!--  Initialisation : Assume InstructorView for beta testing  -->
+            <i:Interaction.Triggers>
+                <i:EventTrigger>
+                    <AssignementAction Path="Viewer.ACCESSMODE" Value="True" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+
+            <!--  The Top Bar  -->
+            <sadara:Toolbar_Top x:Name="topBar"
+                                DockPanel.Dock="Top"
+                                Visibility="{Binding MimicTemplate.Description,
+                                                     ElementName=mainWindow,
+                                                     Converter={NotEqualConverter StartPage}}" />
+
+            <!--  The Bottom Bar  -->
+            <IPCS19:Toolbar_Bottom DockPanel.Dock="Bottom" Visibility="{Binding Visibility, ElementName=topBar}" />
+
+            <!--  The Content  -->
+            <WorkspaceControl x:Name="mainWindow"
+                              MinHeight="200"
+                              PreloadedMimicTemplateKeys="StartPage"/>
+        </DockPanel>
+
+    </DataTemplate>
+
+</ResourceDictionary>

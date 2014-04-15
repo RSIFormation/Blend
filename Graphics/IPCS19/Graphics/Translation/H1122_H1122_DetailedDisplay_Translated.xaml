@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for c:\clients\sadara\ipcs19\Graphics_XML\H1122_H1122_DetailedDisplay.xgml-->
+<!--  <ElementId>4af0399f-f1b3-49f7-b4ec-7bb5ee9e5be5:014467e1-061a-4c0f-ba7e-3d2eef2cbe63</ElementId> -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+mc:Ignorable="d">
+<MimicTemplate x:Key="H1122_H1122_DetailedDisplay_Translated" 	TargetType="{x:Type Mimic}">
+<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
+<IPCS19:UMHxxxx_GE_DetailDisplay x:Name="_UMHxxxx_GE_DetailDisplay1" Width="1630" Height="940" Canvas.Left="0" Canvas.Top="8" Visibility="Visible"
+	 Tag="H1122"/> 
+<ABBLibrary:Label x:Name="Label8"  Width="112" Height="25" Canvas.Left="463" Canvas.Top="9" LabelText="Train 1 Elutriators" /> 
+<Sadara:_05_Unit_Navigation_Arrow_Right x:Name="_05_Unit_Navigation_Arrow_Right1" Width="96" Height="16" Canvas.Left="1528" Canvas.Top="56" Visibility="Visible"
+	 Tag="FL1102"
+	CfgCustomLable=""
+	Element="$'el::FL1102:Navigation Arrow Right'"/> 
+<Sadara:_05_Unit_Navigation_Arrow_Left x:Name="_05_Unit_Navigation_Arrow_Left1" Width="96" Height="16" Canvas.Left="1528" Canvas.Top="399" Visibility="Visible"
+	 Tag="PU1101"
+	CfgCustomLable=""
+	Element="$'el::PU1101:Navigation Arrow Left'"/> 
+<TextBlock Text="SPE Train1 Storage Silo " FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#FFE1CCA8" TextAlignment="Right" Name="Text3" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="12" Canvas.Top="46"  /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button22" Canvas.Left="1060" Canvas.Top="913"  Width="288" Height="24"  AspectView="$'vw::TPPS-2:Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,12 ,Regular, Bold)" Text="PU1730/40 Conveying / Palletizer" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<ABBLibrary:Label x:Name="Label32"  Width="40" Height="16" Canvas.Left="449" Canvas.Top="819.400024414063" LabelText="1730" /> 
+<ABBLibrary:Label x:Name="Label1"  Width="40" Height="16" Canvas.Left="449" Canvas.Top="859.400024414063" LabelText="1740" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button1" Canvas.Left="1358" Canvas.Top="913"  Width="272" Height="24"  AspectView="$'vw::H1122_TMS:H1122_TMS_Variables_Overrides_GE:Main View'" Font="Font( &quot;Arial&quot; ,12 ,Regular, Bold)" Text="TMS overrides and Variables" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<ABBLibrary:Label x:Name="Label2"  Width="144" Height="25" Canvas.Left="1376" Canvas.Top="44" LabelText="To Common Vent Filter" /> 
+<ABBLibrary:Label x:Name="Label3"  Width="112" Height="25" Canvas.Left="1416" Canvas.Top="388" LabelText="Drying/ Purge Air " /> 
+</Canvas></Viewbox>
+</MimicTemplate>
+</ResourceDictionary>

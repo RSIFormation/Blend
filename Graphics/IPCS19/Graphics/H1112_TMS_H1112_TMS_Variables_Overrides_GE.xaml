@@ -1,0 +1,59 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+<ResourceDictionary.MergedDictionaries>
+<ResourceDictionary Source="Translation/H1112_TMS_H1112_TMS_Variables_Overrides_GE_Translated.xaml" />
+</ResourceDictionary.MergedDictionaries>
+<MimicTemplate x:Key="H1112_TMS_H1112_TMS_Variables_Overrides_GE" UniqueId="H1112_TMS_H1112_TMS_Variables_Overrides_GE">
+    <Grid>
+<!--  Graphic Part  -->
+<Mimic x:Name="GRAPHIC"
+      d:IsLocked="True"
+     MimicTemplate="{StaticResource H1112_TMS_H1112_TMS_Variables_Overrides_GE_Translated}" />
+
+
+<!-- FOD Part -->
+ <Viewbox x:Name='FOD' Visibility='{FODBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FODStart -->
+		<!-- FODEnd -->
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- Battery Limit Part -->
+ <Viewbox x:Name='BL' Visibility="{BLBinding}" >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- BLStart -->
+		<!-- BLEnd -->
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- FAILURE Part -->
+ <Viewbox x:Name='FAILURE' Visibility='{FAILUREBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FAILUREStart -->
+		<!-- FAILUREEnd -->
+
+
+	</Canvas>
+</Viewbox>
+
+
+ </Grid>
+ </MimicTemplate>
+</ResourceDictionary>

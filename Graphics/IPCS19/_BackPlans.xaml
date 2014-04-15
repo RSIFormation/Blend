@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="_EmulationLibraries.xaml" />		
+        <ResourceDictionary Source="StartPage.xaml"/>
+		
+	<ResourceDictionary Source="Graphics/480V_Distr_1_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/480V_Distr_2_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/480V_Distr_3_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/ConfigVars_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/EDGFuelTank_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/Elect_SubStation_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/FL1102_OverView_Display.xaml" />
+<ResourceDictionary Source="Graphics/FL2101_Train2_VentFilters_GE.xaml" />
+<ResourceDictionary Source="Graphics/FL3102_Train3_VentFilters_GE.xaml" />
+<ResourceDictionary Source="Graphics/H1111_H1111_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H1111_TMS_H1111_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H1112_H1112_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H1112_TMS_H1112_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H1113_H1113_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H1113_TMS_H1113_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H1121_H1121_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H1121_TMS_H1121_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H1122_H1122_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H1122_TMS_H1122_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H1123_H1123_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H1123_TMS_H1123_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H2131_H2131_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H2131_TMS_H2131_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H2132_H2132_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H2132_TMS_H2132_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H2133_H2133_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H2133_TMS_H2133_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H2141_H2141_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H2141_TMS_H2141_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H2142_H2142_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H2142_TMS_H2142_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H2143_H2143_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H2143_TMS_H2143_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H3111_H3111_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H3111_TMS_H3111_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H3112_H3112_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H3112_TMS_H3112_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H3113_H3113_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H3113_TMS_H3113_TMS_Variables_Overrides.xaml" />
+<ResourceDictionary Source="Graphics/H3121_H3121_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H3121_TMS_H3121_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H3122_H3122_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H3122_TMS_H3122_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/H3123_H3123_DetailedDisplay.xaml" />
+<ResourceDictionary Source="Graphics/H3123_TMS_H3123_TMS_Variables_Overrides_GE.xaml" />
+<ResourceDictionary Source="Graphics/P3103_Overview_Display.xaml" />
+<ResourceDictionary Source="Graphics/PU1101_Train1_2_PurgeAir_GE.xaml" />
+<ResourceDictionary Source="Graphics/SanitarySumps_815_SanitarySumps_GE.xaml" />
+<ResourceDictionary Source="Graphics/TPPS-2_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/TPPS-3_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/Train1_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/Train2_Graphic_Display.xaml" />
+<ResourceDictionary Source="Graphics/WasteWaterSumps_815_WasteWaterSumps.xaml" />
+ </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

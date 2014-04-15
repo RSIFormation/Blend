@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for c:\clients\sadara\ipcs19\Graphics_XML\815_Solids_Cabinets Diagnostics 1.xgml-->
+<!--  <ElementId>0d1e8f8c-d879-48f7-9953-ec1fba25837d:2872d487-2fed-42d6-acc7-5aa7db83387c</ElementId> -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+mc:Ignorable="d">
+<MimicTemplate x:Key="815_Solids_Cabinets_Diagnostics_1_Translated" 	TargetType="{x:Type Mimic}">
+<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
+<GroupBox Header="BPCS" Name="Groupbox15" Width="1579.55603027344" Height="352" Visibility="Visible" Canvas.Left="19" Canvas.Top="120" ><Canvas Width="1579.55603027344" Height="352" /></GroupBox> 
+<GroupBox Header="I/O" Name="Groupbox17" Width="1024" Height="168" Visibility="Visible" Canvas.Left="292.5" Canvas.Top="144" ><Canvas Width="1024" Height="168" /></GroupBox> 
+<TextBlock Text="Power Feed 2 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text25" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1061.5" Canvas.Top="254"  /> 
+<TextBlock Text="Power Feed 1 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text19" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1061.5" Canvas.Top="220"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt5" Width="150" Height="30" Canvas.Left="1161" Canvas.Top="277" Visibility="Visible"
+	 Tag="TT395069"
+	DataContext="{UnitBinding TT395069}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon9" Width="40" Height="40" Canvas.Left="1232" Canvas.Top="208" Visibility="Visible"
+	 Tag="XA395059"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon10" Width="40" Height="40" Canvas.Left="1232" Canvas.Top="242" Visibility="Visible"
+	 Tag="XA395060"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text12" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1061.5" Canvas.Top="190.5"  /> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text13" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1061.5" Canvas.Top="164"  /> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text29" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1061.5" Canvas.Top="284"  /> 
+<TextBlock Text="Power Feed 2 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text24" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="553.8330078125" Canvas.Top="254"  /> 
+<TextBlock Text="Power Feed 1 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text18" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="553.8330078125" Canvas.Top="220"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt3" Width="150" Height="30" Canvas.Left="636.3330078125" Canvas.Top="277" Visibility="Visible"
+	 Tag="TT395067"
+	DataContext="{UnitBinding TT395067}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon5" Width="40" Height="40" Canvas.Left="708.3330078125" Canvas.Top="208" Visibility="Visible"
+	 Tag="XA395055"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon6" Width="40" Height="40" Canvas.Left="708.3330078125" Canvas.Top="242" Visibility="Visible"
+	 Tag="XA395056"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text14" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="553.8330078125" Canvas.Top="190.5"  /> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text15" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="553.8330078125" Canvas.Top="164"  /> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text30" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="553.8330078125" Canvas.Top="284"  /> 
+<TextBlock Text="Power Feed 2 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text22" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="801.1669921875" Canvas.Top="254"  /> 
+<TextBlock Text="Power Feed 1 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text4" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="801.1669921875" Canvas.Top="220"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt4" Width="150" Height="30" Canvas.Left="888.6669921875" Canvas.Top="277" Visibility="Visible"
+	 Tag="TT395068"
+	DataContext="{UnitBinding TT395068}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon7" Width="40" Height="40" Canvas.Left="960.6669921875" Canvas.Top="208" Visibility="Visible"
+	 Tag="XA395057"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon8" Width="40" Height="40" Canvas.Left="960.6669921875" Canvas.Top="242" Visibility="Visible"
+	 Tag="XA395058"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text8" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="801.1669921875" Canvas.Top="190.5"  /> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text9" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="801.1669921875" Canvas.Top="164"  /> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text31" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="801.1669921875" Canvas.Top="284"  /> 
+<TextBlock Text="Power Feed 2 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text21" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="298.5" Canvas.Top="254"  /> 
+<TextBlock Text="Power Feed 1 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text3" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="298.5" Canvas.Top="220"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt2" Width="150" Height="30" Canvas.Left="384" Canvas.Top="277" Visibility="Visible"
+	 Tag="TT395066"
+	DataContext="{UnitBinding TT395066}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon3" Width="40" Height="40" Canvas.Left="456" Canvas.Top="208" Visibility="Visible"
+	 Tag="XA395053"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon4" Width="40" Height="40" Canvas.Left="456" Canvas.Top="242" Visibility="Visible"
+	 Tag="XA395054"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text6" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="298.5" Canvas.Top="190.5"  /> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text7" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="298.5" Canvas.Top="164"  /> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text32" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="298.5" Canvas.Top="284"  /> 
+<Sadara:Missing ElementName="Value90" LibraryElement="PCDeviceLib Faceplate Elements:Value"  Width="160" Height="17" Canvas.Left="238" Canvas.Top="946" Visibility="Visible"/> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button1" Canvas.Left="1440" Canvas.Top="536"  Width="96" Height="24"  AspectView="$'vw::815_Solids:Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,12 ,Regular, Bold)" Text="815_Solids" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<GroupBox Header="Bulk Power Supply" Name="Groupbox19" Width="256" Height="256" Visibility="Visible" Canvas.Left="1329" Canvas.Top="144" ><Canvas Width="256" Height="256" /></GroupBox> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt6" Width="150" Height="30" Canvas.Left="1425" Canvas.Top="363" Visibility="Visible"
+	 Tag="TT395070"
+	DataContext="{UnitBinding TT395070}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<TextBlock Text="Power Feed 3 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text26" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="305"  /> 
+<TextBlock Text="Power Feed 4 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text27" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="339"  /> 
+<TextBlock Text="Power Feed 2 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text23" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="270"  /> 
+<TextBlock Text="Power Feed 1 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text5" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="236"  /> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text10" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="206.5"  /> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text11" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="180"  /> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon15" Width="40" Height="40" Canvas.Left="1498" Canvas.Top="224" Visibility="Visible"
+	 Tag="XA395061"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon16" Width="40" Height="40" Canvas.Left="1498" Canvas.Top="258" Visibility="Visible"
+	 Tag="XA395062"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon17" Width="40" Height="40" Canvas.Left="1498" Canvas.Top="293" Visibility="Visible"
+	 Tag="XA395063"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon18" Width="40" Height="40" Canvas.Left="1498" Canvas.Top="327" Visibility="Visible"
+	 Tag="XA395064"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text28" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1330" Canvas.Top="371"  /> 
+<GroupBox Header="Network Cabinet" Name="Groupbox14" Width="248" Height="120" Visibility="Visible" Canvas.Left="32" Canvas.Top="336" ><Canvas Width="248" Height="120" /></GroupBox> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text16" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="395.5"  /> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text17" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="367"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt7" Width="150" Height="30" Canvas.Left="120" Canvas.Top="416" Visibility="Visible"
+	 Tag="TT395071"
+	DataContext="{UnitBinding TT395071}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text33" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="428"  /> 
+<GroupBox Header="Controller" Name="Groupbox16" Width="248" Height="184" Visibility="Visible" Canvas.Left="32" Canvas.Top="144" ><Canvas Width="248" Height="184" /></GroupBox> 
+<TextBlock Text="Power Feed 2 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text20" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="262"  /> 
+<TextBlock Text="Power Feed 1 Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text45" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="228"  /> 
+<TextBlock Text="Cabinet Location:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text2" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="198.5"  /> 
+<Sadara:Transmitter6DHDisplayElementCompactIconPreFixText x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text_Alt1" Width="150" Height="30" Canvas.Left="120" Canvas.Top="288" Visibility="Visible"
+	 Tag="TT395065"
+	DataContext="{UnitBinding TT395065}"
+	FrameWidth="1"
+	PreFixText="TI"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="60"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon1" Width="40" Height="40" Canvas.Left="208" Canvas.Top="216" Visibility="Visible"
+	 Tag="XA395051"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon2" Width="40" Height="40" Canvas.Left="208" Canvas.Top="250" Visibility="Visible"
+	 Tag="XA395052"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="Top"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Cabinet Name:" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text1" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="172"  /> 
+<TextBlock Text="Temperature" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text34" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="38" Canvas.Top="292"  /> 
+</Canvas></Viewbox>
+</MimicTemplate>
+</ResourceDictionary>

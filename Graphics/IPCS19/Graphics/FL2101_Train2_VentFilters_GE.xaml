@@ -1,0 +1,77 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+<ResourceDictionary.MergedDictionaries>
+<ResourceDictionary Source="Translation/FL2101_Train2_VentFilters_GE_Translated.xaml" />
+</ResourceDictionary.MergedDictionaries>
+<MimicTemplate x:Key="FL2101_Train2_VentFilters_GE" UniqueId="FL2101_Train2_VentFilters_GE">
+    <Grid>
+<!--  Graphic Part  -->
+<Mimic x:Name="GRAPHIC"
+      d:IsLocked="True"
+     MimicTemplate="{StaticResource FL2101_Train2_VentFilters_GE_Translated}" />
+
+
+<!-- FOD Part -->
+ <Viewbox x:Name='FOD' Visibility='{FODBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FODStart -->
+<Mimic x:Name='ATMOSPHERER1' Unit='ATMOSPHERER1' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='WASTEFORDISPOSAL1' Unit='WASTEFORDISPOSAL1' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='PCV211731_PID' Unit='PCV211731_PID' MimicTemplate='{DynamicResource REGULATOR_ABB_FOD}' Canvas.Top='10' Canvas.Left='130'/>
+<Mimic x:Name='PCV211732_PID' Unit='PCV211732_PID' MimicTemplate='{DynamicResource REGULATOR_ABB_FOD}' Canvas.Top='10' Canvas.Left='190'/>
+<Mimic x:Name='FL2101' Unit='FL2101' MimicTemplate='{DynamicResource FILTER_ABB_FOD}' Canvas.Top='10' Canvas.Left='250'/>
+<Mimic x:Name='FL2103' Unit='FL2103' MimicTemplate='{DynamicResource FILTER_ABB_FOD}' Canvas.Top='10' Canvas.Left='310'/>
+<Mimic x:Name='FL2104' Unit='FL2104' MimicTemplate='{DynamicResource FILTER_ABB_FOD}' Canvas.Top='10' Canvas.Left='370'/>
+<!-- FODEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- Battery Limit Part -->
+ <Viewbox x:Name='BL' Visibility="{BLBinding}" >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- BLStart -->
+<Mimic x:Name='IA_FR_3801_4' Unit='IA_FR_3801_4' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='Ambient1' Unit='Ambient1' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='70'/>
+<!-- BLEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- FAILURE Part -->
+ <Viewbox x:Name='FAILURE' Visibility='{FAILUREBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FAILUREStart -->
+<Mimic x:Name='FL2101_FAILURE' Unit='FL2101' MimicTemplate='{DynamicResource FILTER_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='FL2103_FAILURE' Unit='FL2103' MimicTemplate='{DynamicResource FILTER_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='FL2104_FAILURE' Unit='FL2104' MimicTemplate='{DynamicResource FILTER_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='130'/>
+<!-- FAILUREEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+ </Grid>
+ </MimicTemplate>
+</ResourceDictionary>

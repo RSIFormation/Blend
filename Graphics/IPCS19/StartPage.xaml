@@ -1,0 +1,98 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="d">
+
+    <MimicTemplate x:Key="StartPage"
+                   Description="StartPage"
+                   IsBrowsable="True"
+                   TargetType="{x:Type Mimic}"
+                   Type="BackPlan"
+                   UniqueId="StartPage">
+        <Viewbox>
+            <Canvas x:Name="LayoutRoot"
+                    Width="1680"
+                    Height="1050"
+                    Background="White">
+                <!--  Assume InstructorView for beta testing  -->
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Loaded">
+                        <AssignementAction Path="Viewer.ACCESSMODE" Value="True" />						
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+
+
+                <Image Canvas.Left="1310"
+                       Canvas.Top="10"
+                       Width="360"
+                       Height="100"
+                       VerticalAlignment="Top"
+                       Source="Resource\RSI logo.jpg"
+                       Stretch="Fill" />
+
+                <TextBlock Canvas.Left="670.781"
+                           Canvas.Top="195.495"
+                           HorizontalAlignment="Center"
+                           FontSize="48"
+                           Text="IPCS19"
+                           TextAlignment="Center"
+                           TextWrapping="Wrap" />
+
+                <StackPanel Canvas.Left="600"
+                            Canvas.Top="300"
+                            Orientation="Vertical">
+                <Button Width="290"
+                            Height="35"
+                            Content="H1111"
+                            FontSize="18.667"
+                            RenderTransformOrigin="0.503,1.353">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <ChainViewAction MimicTemplateKey="H1111_H1111_DetailedDisplay" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>	
+					<Button Width="290"
+                            Height="35"
+                            Content="H1112"
+                            FontSize="18.667"
+                            RenderTransformOrigin="0.503,1.353">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <ChainViewAction MimicTemplateKey="H1112_H1112_DetailedDisplay" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>
+
+					<Button Width="290"
+                            Height="35"
+                            Content="H1113"
+                            FontSize="18.667"
+                            RenderTransformOrigin="0.503,1.353">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <ChainViewAction MimicTemplateKey="H1113_H1113_DetailedDisplay" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>	
+					<Button Width="290"
+                            Height="35"
+                            Content="H2133"
+                            FontSize="18.667"
+                            RenderTransformOrigin="0.503,1.353">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <ChainViewAction MimicTemplateKey="H2133_H2133_DetailedDisplay" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>	
+                    
+					
+                </StackPanel>
+            </Canvas>
+        </Viewbox>
+
+    </MimicTemplate>
+</ResourceDictionary>

@@ -1,0 +1,70 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+<ResourceDictionary.MergedDictionaries>
+<ResourceDictionary Source="Translation/H1112_H1112_DetailedDisplay_Translated.xaml" />
+</ResourceDictionary.MergedDictionaries>
+<MimicTemplate x:Key="H1112_H1112_DetailedDisplay" UniqueId="H1112_H1112_DetailedDisplay">
+    <Grid>
+<!--  Graphic Part  -->
+<Mimic x:Name="GRAPHIC"
+      d:IsLocked="True"
+     MimicTemplate="{StaticResource H1112_H1112_DetailedDisplay_Translated}" />
+
+
+<!-- FOD Part -->
+ <Viewbox x:Name='FOD' Visibility='{FODBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FODStart -->
+<Mimic x:Name='DRAIN1' Unit='DRAIN1' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='FOD815111201' Unit='FOD815111201' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='FOD815111204' Unit='FOD815111204' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='130'/>
+<Mimic x:Name='HS111216' Unit='HS111216' MimicTemplate='{DynamicResource PUSHBUTTON_ABB_FOD}' Canvas.Top='10' Canvas.Left='190'/>
+<Mimic x:Name='HS111222' Unit='HS111222' MimicTemplate='{DynamicResource PUSHBUTTON_ABB_FOD}' Canvas.Top='10' Canvas.Left='250'/>
+<!-- FODEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- Battery Limit Part -->
+ <Viewbox x:Name='BL' Visibility="{BLBinding}" >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- BLStart -->
+<Mimic x:Name='SPE_FR_1114' Unit='SPE_FR_1114' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='BAGGING1' Unit='BAGGING1' MimicTemplate='{DynamicResource OUTLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='70'/>
+<!-- BLEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- FAILURE Part -->
+ <Viewbox x:Name='FAILURE' Visibility='{FAILUREBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FAILUREStart -->
+		<!-- FAILUREEnd -->
+
+
+	</Canvas>
+</Viewbox>
+
+
+ </Grid>
+ </MimicTemplate>
+</ResourceDictionary>

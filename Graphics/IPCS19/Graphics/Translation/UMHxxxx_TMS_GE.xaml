@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for C:\Clients\SADARA\IPCS19\Graphic_Import\UMHxxxx_TMS_GE.xgml-->
+<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+	xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+	x:Class="IPCS19.UMHxxxx_TMS_GE"
+	Width="Auto" >
+	<UserControl.Resources>
+	</UserControl.Resources>
+<Grid>
+	<!--Input Property 0 Description="The update rate for all aspect object properties subscribed for"-->
+<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle19" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="216.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle39" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="177.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle41" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="138.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle42" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="138.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle15" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="606.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle49" Width="205" Height="40" Visibility="Hidden" Canvas.Left="773" Canvas.Top="801"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle47" Width="205" Height="40" Visibility="Hidden" Canvas.Left="773" Canvas.Top="801"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text5" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="819.5" Canvas.Top="808"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle30" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="489.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle48" Width="205" Height="40" Visibility="Hidden" Canvas.Left="977" Canvas.Top="801"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle31" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="450.403991699219"  /> 
+<TextBlock Text="TMS Overrides and Variables" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text15" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="9" Canvas.Top="39"  /> 
+<Sadara:_04SectionNavigationArrowRight x:Name="_110939b8b5834e13a1d8e97eb65de0572" Width="96" Height="16" Canvas.Left="1604.5" Canvas.Top="1197" Visibility="Visible"
+	CfgCustomLable=""
+	Element="$'el::{9dc04336-d440-4d8b-adf2-a3a71c504f45}:{110939b8-b583-4e13-a1d8-e97eb65de057}'"/> 
+<Sadara:_03PlantNavigationArrowRight x:Name="_85045b2d16334c8aabf441d61afff30d2" Width="96" Height="16" Canvas.Left="1708" Canvas.Top="1197" Visibility="Visible"
+	CfgCustomLable=""
+	Element="$'el::{7ee1be86-e8ee-4d29-b441-658386889368}:{85045b2d-1633-4c8a-abf4-41d61afff30d}'"/> 
+<Sadara:_05UnitNavigationBox x:Name="_458dda9e78ba437ba2e4d95a092668de2" Width="88" Height="16" Canvas.Left="1509" Canvas.Top="1197" Visibility="Visible"
+	Element="$'el::{928cef50-fe15-4b8f-bbdb-5d997c6e99b2}:{458dda9e-78ba-437b-a2e4-d95a092668de}'"/> 
+<TextBlock Text="UMHxxxx" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text4" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="8" Canvas.Top="10"  /> 
+<GroupBox Header="Current Step" Name="Groupbox14" Width="240" Height="50" Visibility="Visible" Canvas.Left="10" Canvas.Top="70" ><Canvas Width="240" Height="50" /></GroupBox> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle50" Width="344" Height="40" Visibility="Hidden" Canvas.Left="430" Canvas.Top="801"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle46" Width="205" Height="40" Visibility="Hidden" Canvas.Left="977" Canvas.Top="801"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle44" Width="205" Height="40" Visibility="Hidden" Canvas.Left="773" Canvas.Top="840.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle37" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="138.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle43" Width="344" Height="40" Visibility="Hidden" Canvas.Left="430" Canvas.Top="840.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle18" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="216.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle36" Width="344" Height="40" Visibility="Hidden" Canvas.Left="430" Canvas.Top="801"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle25" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="489.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle10" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="606.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle14" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="606.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle29" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="489.403991699219"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text86" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="827.5" Canvas.Top="843"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text90" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="829.653991699219" Canvas.Top="806.934020996094"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle45" Width="205" Height="40" Visibility="Hidden" Canvas.Left="977" Canvas.Top="840.403991699219"  /> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon9" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="836.5" Visibility="Hidden"
+	 Tag="Op_Hxxxx_WshRqOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_WshRqOvrTMS}"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon14" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="802" Visibility="Hidden"
+	 Tag="Op_Hxxxx_BlkRecOvTMS"
+	DataContext="{UnitBinding Op_Hxxxx_BlkRecOvTMS}"/> 
+<TextBlock Text="TMS Silo Wash Request" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text76" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="846.403991699219"  /> 
+<TextBlock Text="TMS Request Bulk Recovery" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text85" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="807"  /> 
+<TextBlock Text="TMS Silo Wash Request" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text3" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="807"  /> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon1" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="802" Visibility="Hidden"
+	 Tag="Op_Hxxxx_WshRqOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_WshRqOvrTMS}"/> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle40" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="177.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle38" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="177.404006958008"  /> 
+ 
+<TextBlock Text="TMS Product ID" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text67" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="182.404006958008"  /> 
+<TextBlock Text="OVERRIDE" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text69" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1031.5" Canvas.Top="145"  /> 
+<TextBlock Text="TMS" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text70" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.5" Canvas.Top="145"  /> 
+<TextBlock Text="DESCRIPTION" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text96" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="145"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle20" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="216.404006958008"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle33" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="372.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle35" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="372.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle34" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="372.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle23" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="411.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle22" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="411.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle21" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="411.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle24" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="450.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle32" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="450.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle28" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="528.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle27" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="528.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle26" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="528.403991699219"  /> 
+<TextBlock Text="TMS Confirms Silo Empty" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text66" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="416.403991699219"  /> 
+ 
+<TextBlock Text="TMS Product Lot Number" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text68" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="221.404006958008"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text71" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="832.5" Canvas.Top="416.579986572266"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text72" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="866" Canvas.Top="379"  /> 
+<TextBlock Text="TMS Quantity Transferred From PE Unit" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text73" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="377.403991699219"  /> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon8" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="410.079986572266" Visibility="Visible"
+	 Tag="Op_Hxxxx_EmpCoOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_EmpCoOvrTMS}"/> 
+<Sadara:ValueSetResizedDisplayElementValue x:Name="_ValueSet_Resized_DisplayElementValue11" Width="150" Height="24" Canvas.Left="987.643981933594" Canvas.Top="383" Visibility="Visible"
+	 Tag="Op_Hxxxx_TrQtyOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_TrQtyOvrTMS}"
+	FrameWidth="1"
+	PrefixText=""
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Arial&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Arial&quot; ,11 ,Regular, Normal)"/> 
+<TextBlock Text="TMS  Pellet Product Bulk Density" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text75" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="454.403991699219"  /> 
+<TextBlock Text="TMS Bagging Load Request" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text77" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="494.403991699219"  /> 
+<TextBlock Text="TMS Tilt Container Load request" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text78" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="532.403991699219"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text87" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="825.5" Canvas.Top="491.527008056641"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text88" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="823.5" Canvas.Top="535"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text95" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="867" Canvas.Top="454"  /> 
+<Sadara:ValueSetResizedDisplayElementValue x:Name="_ValueSet_Resized_DisplayElementValue12" Width="150" Height="24" Canvas.Left="987.643981933594" Canvas.Top="458" Visibility="Visible"
+	 Tag="Op_Hxxxx_DensOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_DensOvrTMS}"
+	FrameWidth="1"
+	PrefixText=""
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Arial&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Arial&quot; ,11 ,Regular, Normal)"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon10" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="485.027008056641" Visibility="Visible"
+	 Tag="Op_Hxxxx_EnBagOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_EnBagOvrTMS}"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon11" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="528.5" Visibility="Visible"
+	 Tag="Op_Hxxxx_EnTltOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_EnTltOvrTMS}"/> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle9" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="567.403991699219"  /> 
+<TextBlock Text="TMS Tilt Container Load Quantity" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text79" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="572.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle16" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="567.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle17" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="567.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle11" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="645.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle12" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="645.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle13" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="645.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle4" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="684.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle3" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="723.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle8" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="762.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle6" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="762.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle7" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="762.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle1" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="723.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle2" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="723.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle5" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="684.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle111" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="684.403991699219"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text74" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="823.807983398438" Canvas.Top="607.406005859375"  /> 
+<TextBlock Text="TMS Belt Thrower Load Request" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text80" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="611.403991699219"  /> 
+<TextBlock Text="TMS Belt Thrower Load Quantity" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text81" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="650.403991699219"  /> 
+<TextBlock Text="TMS Hopper Truck Load Request" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text82" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="689.403991699219"  /> 
+<TextBlock Text="TMS Hopper Truck Total Load Quantity" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text83" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="728.403991699219"  /> 
+<TextBlock Text="TMS Hopper Truck No of Compartments" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text84" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="767.403991699219"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text89" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="823.807983398438" Canvas.Top="686.705017089844"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text91" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="866.153991699219" Canvas.Top="770"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text92" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="867.153991699219" Canvas.Top="729"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text94" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="865" Canvas.Top="572"  /> 
+<Sadara:ValueSetResizedDisplayElementValue x:Name="_ValueSet_Resized_DisplayElementValue13" Width="150" Height="24" Canvas.Left="987.643981933594" Canvas.Top="576" Visibility="Visible"
+	 Tag="Op_Hxxxx_TiQtyOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_TiQtyOvrTMS}"
+	FrameWidth="1"
+	PrefixText=""
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Arial&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Arial&quot; ,11 ,Regular, Normal)"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon12" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="601.973022460938" Visibility="Visible"
+	 Tag="Op_Hxxxx_EnBltOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_EnBltOvrTMS}"/> 
+<Sadara:ValueSetResizedDisplayElementValue x:Name="_ValueSet_Resized_DisplayElementValue14" Width="150" Height="24" Canvas.Left="987.643981933594" Canvas.Top="654.065979003906" Visibility="Visible"
+	 Tag="Op_Hxxxx_BeQtyOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_BeQtyOvrTMS}"
+	FrameWidth="1"
+	PrefixText=""
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Arial&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Arial&quot; ,11 ,Regular, Normal)"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon13" Width="116.289" Height="50" Canvas.Left="1021.35498046875" Canvas.Top="678.77197265625" Visibility="Visible"
+	 Tag="Op_Hxxxx_EnHopOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_EnHopOvrTMS}"/> 
+<Sadara:ValueSetResizedDisplayElementValue x:Name="_ValueSet_Resized_DisplayElementValue1" Width="150" Height="24" Canvas.Left="987.643981933594" Canvas.Top="734.065979003906" Visibility="Visible"
+	 Tag="Op_Hxxxx_HpQtyOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_HpQtyOvrTMS}"
+	FrameWidth="1"
+	PrefixText=""
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Arial&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Arial&quot; ,11 ,Regular, Normal)"/> 
+<Sadara:ValueSetResizedDisplayElementValue x:Name="_ValueSet_Resized_DisplayElementValue2" Width="150" Height="24" Canvas.Left="987.643981933594" Canvas.Top="770" Visibility="Visible"
+	 Tag="Op_Hxxxx_HpNumOvrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_HpNumOvrTMS}"
+	FrameWidth="1"
+	PrefixText=""
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Arial&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Arial&quot; ,11 ,Regular, Normal)"/> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text6" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="867.153991699219" Canvas.Top="649"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text1" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="867.5" Canvas.Top="178"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text2" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="867.5" Canvas.Top="218"  /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button1" Canvas.Left="23" Canvas.Top="89"  Width="216" Height="25"  AspectView="$'vw::UMHxxxx:SFC Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,10 ,Regular, Bold)" Text="Unsupported" TextColor="$'lc::Process Graphics 2 Colors:SymbolLabelColor'" FrameWidth="0." FrameColor1="ARGB(0,0,0,0)" />
+ 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle51" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="255"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle52" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="255"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle53" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="255"  /> 
+<TextBlock Text="TMS Requests Bag to PU" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text7" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="261"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle54" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="294"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle55" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="294"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle56" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="294"  /> 
+<TextBlock Text="TMS Requests Bag to PU" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text8" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="300"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text9" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="827.5" Canvas.Top="267.096008300781"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text10" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="827.5" Canvas.Top="299.096008300781"  /> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon2" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="260.596008300781" Visibility="Visible"
+	 Tag="Op_Hxxxx_PUxxxxOrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_PUxxxxOrTMS}"/> 
+<Sadara:BoolOutputDisplayElementDynamicTextIcon x:Name="_BoolOutput_Display_Element_Dynamic_Text_Icon3" Width="116.289" Height="45" Canvas.Left="1021.35498046875" Canvas.Top="292.596008300781" Visibility="Visible"
+	 Tag="Op_Hxxxx_PUyyyyOrTMS"
+	DataContext="{UnitBinding Op_Hxxxx_PUyyyyOrTMS}"/> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle57" Width="205" Height="40" Visibility="Visible" Canvas.Left="773" Canvas.Top="333.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle58" Width="205" Height="40" Visibility="Visible" Canvas.Left="977" Canvas.Top="333.403991699219"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle59" Width="344" Height="40" Visibility="Visible" Canvas.Left="430" Canvas.Top="333.403991699219"  /> 
+<TextBlock Text="PCOM Task Reference No" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text11" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="432.25" Canvas.Top="338.403991699219"  /> 
+<TextBlock Text="Unsupported" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text12" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="867.5" Canvas.Top="335"  /> 
+</Canvas></Viewbox>
+</Grid>
+</UserControl>

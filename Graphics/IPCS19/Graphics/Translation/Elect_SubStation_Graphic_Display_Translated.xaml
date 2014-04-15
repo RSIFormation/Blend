@@ -1,0 +1,1240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for c:\clients\sadara\ipcs19\Graphics_XML\Elect SubStation_Graphic Display.xgml-->
+<!--  <ElementId>66ac44e9-2f14-41ea-a8f0-97ed8b98a34a:014467e1-061a-4c0f-ba7e-3d2eef2cbe63</ElementId> -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+mc:Ignorable="d">
+<MimicTemplate x:Key="Elect_SubStation_Graphic_Display_Translated" 	TargetType="{x:Type Mimic}">
+<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
+<GroupBox Header="     " Name="Groupbox5" Width="368" Height="224" Visibility="Visible" Canvas.Left="833.905029296875" Canvas.Top="672" ><Canvas Width="368" Height="224" /></GroupBox> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon69" Width="40" Height="40" Canvas.Left="1163.04797363281" Canvas.Top="855.973999023438" Visibility="Visible"
+	 Tag="XA399560"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon70" Width="40" Height="40" Canvas.Left="1163.04797363281" Canvas.Top="831.973999023438" Visibility="Visible"
+	 Tag="XA399559"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="125 VDC Battery Charger" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text136" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="815.973999023438"  /> 
+<TextBlock Text="BC815K001A Battery Charger  Alarm " FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text137" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="836.973999023438"  /> 
+<TextBlock Text="BC815K001B Battery Charger  Alarm " FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text138" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="863.973999023438"  /> 
+<TextBlock Text="MTM Breakers Abnormal Configuration" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text91" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="732.973999023438"  /> 
+<TextBlock Text="Bus Tie Breaker Position Open" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text92" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="684.973999023438"  /> 
+<TextBlock Text="Not Ready To Transfer" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text93" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="708.973999023438"  /> 
+<TextBlock Text="Power System Common Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text94" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="756.973999023438"  /> 
+<TextBlock Text="Power System Alarm Not Acknowledged" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text95" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="851.047973632813" Canvas.Top="780.973999023438"  /> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon48" Width="40" Height="40" Canvas.Left="1161.90502929688" Canvas.Top="679.973999023438" Visibility="Visible"
+	 Tag="ZI399511"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon49" Width="40" Height="40" Canvas.Left="1161.90502929688" Canvas.Top="703.973999023438" Visibility="Visible"
+	 Tag="ZA399512"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon50" Width="40" Height="40" Canvas.Left="1161.90502929688" Canvas.Top="727.973999023438" Visibility="Visible"
+	 Tag="ZA399513"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon51" Width="40" Height="40" Canvas.Left="1161.90502929688" Canvas.Top="751.973999023438" Visibility="Visible"
+	 Tag="XA399514"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon52" Width="40" Height="40" Canvas.Left="1161.90502929688" Canvas.Top="775.973999023438" Visibility="Visible"
+	 Tag="XA399515"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<GroupBox Header="UPS" Name="Groupbox4" Width="368" Height="223.973007202148" Visibility="Visible" Canvas.Left="404.951995849609" Canvas.Top="669.776977539063" ><Canvas Width="368" Height="223.973007202148" /></GroupBox> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon71" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="688" Visibility="Visible"
+	 Tag="XA399551"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon72" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="784" Visibility="Visible"
+	 Tag="XA399552"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon73" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="712" Visibility="Visible"
+	 Tag="XA399553"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon74" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="808" Visibility="Visible"
+	 Tag="XA399554"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon75" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="736" Visibility="Visible"
+	 Tag="XA399555"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon76" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="832" Visibility="Visible"
+	 Tag="XA399556"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon77" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="760" Visibility="Visible"
+	 Tag="XA399557"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon78" Width="40" Height="40" Canvas.Left="732.952026367188" Canvas.Top="856" Visibility="Visible"
+	 Tag="XA399558"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Alert"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="UPS815R001A Instrument UPS/Trouble Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text106" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="693"  /> 
+<TextBlock Text="UPS815R001B Instrument UPS/Trouble Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text107" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="717"  /> 
+<TextBlock Text="UPS815R002 Emergency Lighting Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text108" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="741"  /> 
+<TextBlock Text="UPS815R003 Telecom UPS/Trouble Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text109" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="765"  /> 
+<TextBlock Text="UPS815R001A Batteries Discharge Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text110" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="789"  /> 
+<TextBlock Text="UPS815R001B Batteries Discharge Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text111" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="813"  /> 
+<TextBlock Text="UPS815R002 Batteries Discharge Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text112" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="837"  /> 
+<TextBlock Text="UPS815R003 Batteries Discharge Alarm" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text113" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="405.285003662109" Canvas.Top="861"  /> 
+<Polyline Points="759.176513671875,367 73.109733581543,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline2" Visibility="Visible"  /> 
+<Polyline Points="872,368 1544,368" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline164" Visibility="Visible"  /> 
+<TextBlock Text="From &#10;Switching Station &#10; No.L3501" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text139" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="880" Canvas.Top="64"  /> 
+<Polyline Points="62.5406188964844,245.46240234375 1567.5810546875,245.246398925781 1566.13500976563,625.32421875" Stroke="#FF808080" StrokeThickness="1" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" Name="Polyline456" Visibility="Visible"  /> 
+<Polyline Points="1566.09497070313,635.919189453125 61.0777015686035,630.196472167969 62.5229110717773,250.118606567383" Stroke="#FF808080" StrokeThickness="1" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" Name="Polyline457" Visibility="Visible"  /> 
+<TextBlock Text="SWR815G001" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text140" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="96" Canvas.Top="272"  /> 
+<TextBlock Text="MB815G001A" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text141" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="592" Canvas.Top="296"  /> 
+<TextBlock Text="MB815G001B" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text142" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="944" Canvas.Top="296"  /> 
+<TextBlock Text="TR815G001B" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text143" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="912" Canvas.Top="136"  /> 
+<TextBlock Text="From &#10;Switching Station &#10; No.L3501" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text144" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="664" Canvas.Top="56"  /> 
+<TextBlock Text="Bus A" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text146" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="288" Canvas.Top="336"  /> 
+<TextBlock Text="TR815G001A" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text145" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="616" Canvas.Top="136"  /> 
+<TextBlock Text="Bus B" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text147" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1208" Canvas.Top="336"  /> 
+<TextBlock Text="B1" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text148" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="880" Canvas.Top="368"  /> 
+<TextBlock Text="B2" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text149" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="976" Canvas.Top="368"  /> 
+<TextBlock Text="B3" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text150" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1064" Canvas.Top="368"  /> 
+<TextBlock Text="B4" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text151" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1160" Canvas.Top="368"  /> 
+<TextBlock Text="B5" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text152" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1248" Canvas.Top="368"  /> 
+<TextBlock Text="B6" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text153" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1344" Canvas.Top="368"  /> 
+<TextBlock Text="B7" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text154" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1440" Canvas.Top="368"  /> 
+<TextBlock Text="B8" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text155" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1528" Canvas.Top="368"  /> 
+<TextBlock Text="A1" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text156" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="752" Canvas.Top="368"  /> 
+<TextBlock Text="A3" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text158" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="576" Canvas.Top="368"  /> 
+<TextBlock Text="A4" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text159" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="480" Canvas.Top="368"  /> 
+<TextBlock Text="A5" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text160" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="392" Canvas.Top="368"  /> 
+<TextBlock Text="A6" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text161" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="288" Canvas.Top="368"  /> 
+<TextBlock Text="A7" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text162" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="184" Canvas.Top="368"  /> 
+<TextBlock Text="A8" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text163" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="104" Canvas.Top="368"  /> 
+<TextBlock Text="Spare" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text165" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1512" Canvas.Top="538"  /> 
+<TextBlock Text="Spare" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text164" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="80" Canvas.Top="536"  /> 
+<TextBlock Text="To&#10;TR825H004A&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text166" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="136" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR825H004B&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text167" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1424" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR815H004A&#10;Solids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text168" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="248" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR815H004B&#10;Solids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text169" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1328" Canvas.Top="552"  /> 
+<TextBlock Text="Feeder to&#10;RMZ Crane 1" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text170" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="344" Canvas.Top="544"  /> 
+<TextBlock Text="Feeder to&#10;RMZ Crane 2" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text171" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1224" Canvas.Top="544"  /> 
+<TextBlock Text="To&#10;TR825H002A&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text172" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="440" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR825H002B&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text173" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1128" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR825H003A&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text174" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="536" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR815H003B&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text175" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1040" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR825H001A&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text176" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="720" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR825H001B&#10;Liquids Center" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text177" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="840" Canvas.Top="552"  /> 
+<TextBlock Text="To&#10;TR845H001A&#10;Container&#10;Marshalling&#10;Yard" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text178" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="632" Canvas.Top="568"  /> 
+<TextBlock Text="To&#10;TR845H001B&#10;Container&#10;Marshalling&#10;Yard" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text179" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="952" Canvas.Top="568"  /> 
+<GroupBox Header="     " Name="Groupbox1" Width="240" Height="168" Visibility="Visible" Canvas.Left="358" Canvas.Top="63" ><Canvas Width="240" Height="168" /></GroupBox> 
+<TextBlock Text="TR815G001A" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text124" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="366" Canvas.Top="74"  /> 
+<TextBlock Text="Transformer Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text125" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="366" Canvas.Top="98"  /> 
+<TextBlock Text="Breaker Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text126" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="366" Canvas.Top="154"  /> 
+<TextBlock Text="Breaker Position Open" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text127" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="366" Canvas.Top="178"  /> 
+<TextBlock Text="Loss of Voltage" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text128" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="366" Canvas.Top="202"  /> 
+<TextBlock Text="MB815G001A" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text129" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="366" Canvas.Top="130"  /> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon40" Width="40" Height="40" Canvas.Left="542" Canvas.Top="90" Visibility="Visible"
+	 Tag="XA399501"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon41" Width="40" Height="40" Canvas.Left="542" Canvas.Top="146" Visibility="Visible"
+	 Tag="XA399504"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon42" Width="40" Height="40" Canvas.Left="542" Canvas.Top="170" Visibility="Visible"
+	 Tag="ZI399503"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon43" Width="40" Height="40" Canvas.Left="542" Canvas.Top="194" Visibility="Visible"
+	 Tag="EA399505"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text3" Width="150" Height="40" Canvas.Left="496" Canvas.Top="320" Visibility="Visible"
+	 Tag="II399620"
+	FrameWidth="1"
+	PreFixText="IT"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="65"/> 
+<Polyline Points="728.206176757813,312.5 767.793823242188,312.5" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" Name="Polyline472" Visibility="Visible"  /> 
+<Polyline Points="848.206176757813,312.5 887.793823242188,312.5" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" Name="Polyline473" Visibility="Visible"  /> 
+<Polyline Points="812,348.596710205078 812,332.990905761719" Stroke="#FF000000" StrokeThickness="1" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" Name="Polyline474" Visibility="Visible"  /> 
+<Rectangle Fill="#00FFFFFF" Stroke="#FF000000" Name="Rectangle16" Width="80" Height="32" Visibility="Visible" Canvas.Left="768" Canvas.Top="296"  /> 
+<TextBlock Text="ATS" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text180" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="792" Canvas.Top="296"  /> 
+<Canvas Canvas.Left="818" Canvas.Top="342" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone1" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Canvas Canvas.Left="883" Canvas.Top="307" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone2" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path></Canvas> 
+<Canvas Canvas.Left="733" Canvas.Top="307" Width="11" Height="11"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone3" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11,5.5 0,11 M0,0A11,11,0,0,0,0,11" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><ScaleTransform ScaleX="-1" ScaleY="1" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Canvas Canvas.Left="715.528015136719" Canvas.Top="300.545013427734" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc1" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="703.820983886719,311.150909423828 703.820983886719,295.724487304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline1" Visibility="Visible"  /> 
+<Polyline Points="715.905517578125,311.150909423828 703.820983886719,295.724487304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline3" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,295.724487304688 691.736511230469,311.150909423828" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline4" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,289.318786621094 703.820983886719,273" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline5" Visibility="Visible"  /> 
+<Polyline Points="715.905517578125,306.0087890625 703.820983886719,290.582397460938" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline6" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,290.582397460938 691.736511230469,306.0087890625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline7" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,331.719512939453 703.820983886719,347.145904541016" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline8" Visibility="Visible"  /> 
+<Polyline Points="715.905517578125,331.719512939453 703.820983886719,347.145904541016" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline9" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,347.145904541016 691.736511230469,331.719512939453" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline10" Visibility="Visible"  /> 
+<Polyline Points="715.905517578125,336.861602783203 703.820983886719,352.2880859375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline11" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,352.2880859375 691.736511230469,336.861602783203" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline12" Visibility="Visible"  /> 
+<Polyline Points="703.820983886719,352.2880859375 703.820983886719,367.714508056641" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline13" Visibility="Visible"  /> 
+<Polyline Points="704,277.239990234375 704,192.759994506836" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline468" Visibility="Visible"  /> 
+<Polyline Points="705,152 705,96" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline471" Visibility="Visible"  /> 
+<Indiss:MimicPresenter  x:Name="_Symbol_Factory_Symbol1" Width="40" Height="88" Visibility="Visible" Canvas.Left="660" Canvas.Top="158" MimicFileName=".\ABB_Library\Elec.xaml">
+
+<Indiss:MimicPresenter.RenderTransform>
+<TransformGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"><TransformGroup.Children><ScaleTransform ScaleX="-1" ScaleY="1" /><RotateTransform Angle="270" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+</Indiss:MimicPresenter.RenderTransform>
+
+</Indiss:MimicPresenter> 
+<Polyline Points="908,160 908,104" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline15" Visibility="Visible"  /> 
+<Indiss:MimicPresenter  x:Name="_Symbol_Factory_Symbol3" Width="40" Height="88" Visibility="Visible" Canvas.Left="864" Canvas.Top="160" MimicFileName=".\ABB_Library\Elec.xaml">
+
+<Indiss:MimicPresenter.RenderTransform>
+<TransformGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"><TransformGroup.Children><ScaleTransform ScaleX="-1" ScaleY="1" /><RotateTransform Angle="270" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+</Indiss:MimicPresenter.RenderTransform>
+
+</Indiss:MimicPresenter> 
+<GroupBox Header="Bus B Protective Relays" Name="Groupbox6" Width="288" Height="223.973007202148" Visibility="Visible" Canvas.Left="1288" Canvas.Top="672.026977539063" ><Canvas Width="288" Height="223.973007202148" /></GroupBox> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon54" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="779" Visibility="Visible"
+	 Tag="XA399517"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon56" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="723" Visibility="Visible"
+	 Tag="XA399566"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon58" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="803" Visibility="Visible"
+	 Tag="XA399568"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon60" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="675" Visibility="Visible"
+	 Tag="XA399570"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon62" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="750" Visibility="Visible"
+	 Tag="XA399572"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon63" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="827" Visibility="Visible"
+	 Tag="XA399574"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon65" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="699" Visibility="Visible"
+	 Tag="XA399576"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon68" Width="40" Height="40" Canvas.Left="1528" Canvas.Top="851" Visibility="Visible"
+	 Tag="XA399578"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="B1 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text116" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="685"  /> 
+<TextBlock Text="B2 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text117" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="709"  /> 
+<TextBlock Text="B3 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text118" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="733"  /> 
+<TextBlock Text="B4 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text119" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="760"  /> 
+<TextBlock Text="B5 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text120" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="789"  /> 
+<TextBlock Text="B6 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text121" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="813"  /> 
+<TextBlock Text="B7 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text122" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="837"  /> 
+<TextBlock Text="B8 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text123" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1296" Canvas.Top="861"  /> 
+<GroupBox Header="     " Name="Groupbox2" Width="240" Height="168" Visibility="Visible" Canvas.Left="1008" Canvas.Top="66" ><Canvas Width="240" Height="168" /></GroupBox> 
+<TextBlock Text="TR815G001B" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text130" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1016" Canvas.Top="74"  /> 
+<TextBlock Text="MB815G001B" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text135" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1016" Canvas.Top="130"  /> 
+<TextBlock Text="Transformer Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text131" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1016" Canvas.Top="98"  /> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon44" Width="40" Height="40" Canvas.Left="1192" Canvas.Top="90" Visibility="Visible"
+	 Tag="XA399506"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon45" Width="40" Height="40" Canvas.Left="1192" Canvas.Top="170" Visibility="Visible"
+	 Tag="ZI399508"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon46" Width="40" Height="40" Canvas.Left="1192" Canvas.Top="146" Visibility="Visible"
+	 Tag="XA399509"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon47" Width="40" Height="40" Canvas.Left="1192" Canvas.Top="194" Visibility="Visible"
+	 Tag="EA399510"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="Breaker Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text2" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1016" Canvas.Top="156"  /> 
+<TextBlock Text="Breaker Position Open" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text3" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1016" Canvas.Top="180"  /> 
+<TextBlock Text="Loss of Voltage" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text4" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1016" Canvas.Top="204"  /> 
+<Sadara:Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text x:Name="_Transmitter6DH_Display_Element_Compact_Icon_PreFix_Text4" Width="150" Height="40" Canvas.Left="936" Canvas.Top="320" Visibility="Visible"
+	 Tag="II399622"
+	FrameWidth="1"
+	PreFixText="IT"
+	ShowChars="False"
+	ShowColor="True"
+	StatusIndicationVisible="True"
+	StatusIndicatorsPosition="Top"
+	StatusIndPercent="100"
+	UnitFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueFont="Font( &quot;Tahoma&quot; ,10 ,Regular, Normal)"
+	ValueSplit="65"/> 
+<Polyline Points="907.905517578125,285.239990234375 907.905517578125,200.759994506836" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline14" Visibility="Visible"  /> 
+<Canvas Canvas.Left="896.377014160156" Canvas.Top="300.545013427734" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc2" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><ScaleTransform ScaleX="-1" ScaleY="1" /><RotateTransform Angle="270" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="908.08447265625,311.150909423828 908.08447265625,295.724487304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline16" Visibility="Visible"  /> 
+<Polyline Points="896,311.150909423828 908.08447265625,295.724487304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline17" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,295.724487304688 920.168884277344,311.150909423828" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline18" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,289.318786621094 908.08447265625,273" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline19" Visibility="Visible"  /> 
+<Polyline Points="896,306.0087890625 908.08447265625,290.582397460938" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline20" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,290.582397460938 920.168884277344,306.0087890625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline21" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,331.719512939453 908.08447265625,347.145904541016" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline22" Visibility="Visible"  /> 
+<Polyline Points="896,331.719512939453 908.08447265625,347.145904541016" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline23" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,347.145904541016 920.168884277344,331.719512939453" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline24" Visibility="Visible"  /> 
+<Polyline Points="896,336.861602783203 908.08447265625,352.2880859375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline25" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,352.2880859375 920.168884277344,336.861602783203" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline26" Visibility="Visible"  /> 
+<Polyline Points="908.08447265625,352.2880859375 908.08447265625,367.714508056641" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline27" Visibility="Visible"  /> 
+<TextBlock Text="A2" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="13.33" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text157" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="664" Canvas.Top="368"  /> 
+<Canvas Canvas.Left="667.528015136719" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc4" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="655.820983886719,454.933685302734 655.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline40" Visibility="Visible"  /> 
+<Polyline Points="667.905517578125,454.933685302734 655.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline41" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,439.507202148438 643.736511230469,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline42" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,452.810699462891 655.820983886719,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline43" Visibility="Visible"  /> 
+<Polyline Points="667.905517578125,449.79150390625 655.820983886719,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline44" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,434.365112304688 643.736511230469,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline45" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,475.502197265625 655.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline46" Visibility="Visible"  /> 
+<Polyline Points="667.905517578125,475.502197265625 655.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline47" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,490.928588867188 643.736511230469,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline48" Visibility="Visible"  /> 
+<Polyline Points="667.905517578125,480.644287109375 655.820983886719,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline49" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,496.07080078125 643.736511230469,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline50" Visibility="Visible"  /> 
+<Polyline Points="655.820983886719,492.547607421875 655.820983886719,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline51" Visibility="Visible"  /> 
+<Canvas Canvas.Left="755.528015136719" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc5" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="743.820983886719,454.933685302734 743.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline52" Visibility="Visible"  /> 
+<Polyline Points="755.905517578125,454.933685302734 743.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline53" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,439.507202148438 731.736511230469,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline54" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,452.810699462891 743.820983886719,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline55" Visibility="Visible"  /> 
+<Polyline Points="755.905517578125,449.79150390625 743.820983886719,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline56" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,434.365112304688 731.736511230469,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline57" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,475.502197265625 743.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline58" Visibility="Visible"  /> 
+<Polyline Points="755.905517578125,475.502197265625 743.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline59" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,490.928588867188 731.736511230469,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline60" Visibility="Visible"  /> 
+<Polyline Points="755.905517578125,480.644287109375 743.820983886719,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline61" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,496.07080078125 731.736511230469,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline62" Visibility="Visible"  /> 
+<Polyline Points="743.820983886719,492.547607421875 743.820983886719,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline63" Visibility="Visible"  /> 
+<Canvas Canvas.Left="107.52799987793" Canvas.Top="443.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc6" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="95.8209762573242,453.933685302734 95.8209762573242,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline64" Visibility="Visible"  /> 
+<Polyline Points="107.905502319336,453.933685302734 95.8209762573242,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline65" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,438.507202148438 83.7365112304688,453.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline66" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,451.810699462891 95.8209762573242,366" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline67" Visibility="Visible"  /> 
+<Polyline Points="107.905502319336,448.79150390625 95.8209762573242,433.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline68" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,433.365112304688 83.7365112304688,448.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline69" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,474.502197265625 95.8209762573242,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline70" Visibility="Visible"  /> 
+<Polyline Points="107.905502319336,474.502197265625 95.8209762573242,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline71" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,489.928588867188 83.7365112304688,474.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline72" Visibility="Visible"  /> 
+<Polyline Points="107.905502319336,479.644287109375 95.8209762573242,495.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline73" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,495.07080078125 83.7365112304688,479.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline74" Visibility="Visible"  /> 
+<Polyline Points="95.8209762573242,491.547607421875 95.8209762573242,530.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline75" Visibility="Visible"  /> 
+<Canvas Canvas.Left="793.614990234375" Canvas.Top="355.089996337891" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc3" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path></Canvas> 
+<Polyline Points="804.221130371094,366.797088623047 788.794616699219,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline28" Visibility="Visible"  /> 
+<Polyline Points="804.221130371094,354.712585449219 788.794616699219,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline29" Visibility="Visible"  /> 
+<Polyline Points="788.794616699219,366.797088623047 804.221130371094,378.881500244141" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline30" Visibility="Visible"  /> 
+<Polyline Points="802.098083496094,366.797088623047 716.287414550781,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline31" Visibility="Visible"  /> 
+<Polyline Points="799.078918457031,354.712585449219 783.652526855469,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline32" Visibility="Visible"  /> 
+<Polyline Points="783.652526855469,366.797088623047 799.078918457031,378.881500244141" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline33" Visibility="Visible"  /> 
+<Polyline Points="824.789611816406,366.797088623047 840.216003417969,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline34" Visibility="Visible"  /> 
+<Polyline Points="824.789611816406,354.712585449219 840.216003417969,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline35" Visibility="Visible"  /> 
+<Polyline Points="840.216003417969,366.797088623047 824.789611816406,378.881500244141" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline36" Visibility="Visible"  /> 
+<Polyline Points="829.931823730469,354.712585449219 845.358215332031,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline37" Visibility="Visible"  /> 
+<Polyline Points="845.358215332031,366.797088623047 829.931823730469,378.881500244141" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline38" Visibility="Visible"  /> 
+<Polyline Points="841.835021972656,366.797088623047 880.617980957031,366.797088623047" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline39" Visibility="Visible"  /> 
+<Canvas Canvas.Left="979.528015136719" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc8" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="967.820983886719,454.933685302734 967.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline88" Visibility="Visible"  /> 
+<Polyline Points="979.905517578125,454.933685302734 967.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline89" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,439.507202148438 955.736511230469,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline90" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,452.810699462891 967.820983886719,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline91" Visibility="Visible"  /> 
+<Polyline Points="979.905517578125,449.79150390625 967.820983886719,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline92" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,434.365112304688 955.736511230469,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline93" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,475.502197265625 967.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline94" Visibility="Visible"  /> 
+<Polyline Points="979.905517578125,475.502197265625 967.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline95" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,490.928588867188 955.736511230469,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline96" Visibility="Visible"  /> 
+<Polyline Points="979.905517578125,480.644287109375 967.820983886719,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline97" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,496.07080078125 955.736511230469,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline98" Visibility="Visible"  /> 
+<Polyline Points="967.820983886719,492.547607421875 967.820983886719,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline99" Visibility="Visible"  /> 
+<Canvas Canvas.Left="883.528015136719" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc7" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="871.820983886719,454.933685302734 871.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline76" Visibility="Visible"  /> 
+<Polyline Points="883.905517578125,454.933685302734 871.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline77" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,439.507202148438 859.736511230469,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline78" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,452.810699462891 871.820983886719,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline79" Visibility="Visible"  /> 
+<Polyline Points="883.905517578125,449.79150390625 871.820983886719,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline80" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,434.365112304688 859.736511230469,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline81" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,475.502197265625 871.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline82" Visibility="Visible"  /> 
+<Polyline Points="883.905517578125,475.502197265625 871.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline83" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,490.928588867188 859.736511230469,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline84" Visibility="Visible"  /> 
+<Polyline Points="883.905517578125,480.644287109375 871.820983886719,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline85" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,496.07080078125 859.736511230469,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline86" Visibility="Visible"  /> 
+<Polyline Points="871.820983886719,492.547607421875 871.820983886719,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline87" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1163.52795410156" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc9" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1151.82104492188,454.933685302734 1151.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline100" Visibility="Visible"  /> 
+<Polyline Points="1163.90600585938,454.933685302734 1151.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline101" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,439.507202148438 1139.73706054688,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline102" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,452.810699462891 1151.82104492188,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline103" Visibility="Visible"  /> 
+<Polyline Points="1163.90600585938,449.79150390625 1151.82104492188,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline104" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,434.365112304688 1139.73706054688,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline105" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,475.502197265625 1151.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline106" Visibility="Visible"  /> 
+<Polyline Points="1163.90600585938,475.502197265625 1151.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline107" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,490.928588867188 1139.73706054688,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline108" Visibility="Visible"  /> 
+<Polyline Points="1163.90600585938,480.644287109375 1151.82104492188,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline109" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,496.07080078125 1139.73706054688,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline110" Visibility="Visible"  /> 
+<Polyline Points="1151.82104492188,492.547607421875 1151.82104492188,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline111" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1067.52795410156" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc10" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1055.82104492188,454.933685302734 1055.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline112" Visibility="Visible"  /> 
+<Polyline Points="1067.90600585938,454.933685302734 1055.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline113" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,439.507202148438 1043.73706054688,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline114" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,452.810699462891 1055.82104492188,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline115" Visibility="Visible"  /> 
+<Polyline Points="1067.90600585938,449.79150390625 1055.82104492188,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline116" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,434.365112304688 1043.73706054688,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline117" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,475.502197265625 1055.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline118" Visibility="Visible"  /> 
+<Polyline Points="1067.90600585938,475.502197265625 1055.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline119" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,490.928588867188 1043.73706054688,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline120" Visibility="Visible"  /> 
+<Polyline Points="1067.90600585938,480.644287109375 1055.82104492188,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline121" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,496.07080078125 1043.73706054688,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline122" Visibility="Visible"  /> 
+<Polyline Points="1055.82104492188,492.547607421875 1055.82104492188,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline123" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1347.52795410156" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc11" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1335.82104492188,454.933685302734 1335.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline124" Visibility="Visible"  /> 
+<Polyline Points="1347.90600585938,454.933685302734 1335.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline125" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,439.507202148438 1323.73706054688,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline126" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,452.810699462891 1335.82104492188,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline127" Visibility="Visible"  /> 
+<Polyline Points="1347.90600585938,449.79150390625 1335.82104492188,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline128" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,434.365112304688 1323.73706054688,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline129" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,475.502197265625 1335.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline130" Visibility="Visible"  /> 
+<Polyline Points="1347.90600585938,475.502197265625 1335.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline131" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,490.928588867188 1323.73706054688,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline132" Visibility="Visible"  /> 
+<Polyline Points="1347.90600585938,480.644287109375 1335.82104492188,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline133" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,496.07080078125 1323.73706054688,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline134" Visibility="Visible"  /> 
+<Polyline Points="1335.82104492188,492.547607421875 1335.82104492188,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline135" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1251.52795410156" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc12" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1239.82104492188,454.933685302734 1239.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline136" Visibility="Visible"  /> 
+<Polyline Points="1251.90600585938,454.933685302734 1239.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline137" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,439.507202148438 1227.73706054688,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline138" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,452.810699462891 1239.82104492188,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline139" Visibility="Visible"  /> 
+<Polyline Points="1251.90600585938,449.79150390625 1239.82104492188,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline140" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,434.365112304688 1227.73706054688,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline141" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,475.502197265625 1239.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline142" Visibility="Visible"  /> 
+<Polyline Points="1251.90600585938,475.502197265625 1239.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline143" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,490.928588867188 1227.73706054688,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline144" Visibility="Visible"  /> 
+<Polyline Points="1251.90600585938,480.644287109375 1239.82104492188,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline145" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,496.07080078125 1227.73706054688,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline146" Visibility="Visible"  /> 
+<Polyline Points="1239.82104492188,492.547607421875 1239.82104492188,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline147" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1539.52795410156" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc13" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1527.82104492188,454.933685302734 1527.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline148" Visibility="Visible"  /> 
+<Polyline Points="1539.90600585938,454.933685302734 1527.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline149" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,439.507202148438 1515.73706054688,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline150" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,452.810699462891 1527.82104492188,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline151" Visibility="Visible"  /> 
+<Polyline Points="1539.90600585938,449.79150390625 1527.82104492188,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline152" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,434.365112304688 1515.73706054688,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline153" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,475.502197265625 1527.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline154" Visibility="Visible"  /> 
+<Polyline Points="1539.90600585938,475.502197265625 1527.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline155" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,490.928588867188 1515.73706054688,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline156" Visibility="Visible"  /> 
+<Polyline Points="1539.90600585938,480.644287109375 1527.82104492188,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline157" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,496.07080078125 1515.73706054688,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline158" Visibility="Visible"  /> 
+<Polyline Points="1527.82104492188,492.547607421875 1527.82104492188,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline159" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1443.52795410156" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc14" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="1431.82104492188,454.933685302734 1431.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline160" Visibility="Visible"  /> 
+<Polyline Points="1443.90600585938,454.933685302734 1431.82104492188,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline161" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,439.507202148438 1419.73706054688,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline162" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,452.810699462891 1431.82104492188,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline163" Visibility="Visible"  /> 
+<Polyline Points="1443.90600585938,449.79150390625 1431.82104492188,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline165" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,434.365112304688 1419.73706054688,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline166" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,475.502197265625 1431.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline167" Visibility="Visible"  /> 
+<Polyline Points="1443.90600585938,475.502197265625 1431.82104492188,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline168" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,490.928588867188 1419.73706054688,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline169" Visibility="Visible"  /> 
+<Polyline Points="1443.90600585938,480.644287109375 1431.82104492188,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline170" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,496.07080078125 1419.73706054688,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline171" Visibility="Visible"  /> 
+<Polyline Points="1431.82104492188,492.547607421875 1431.82104492188,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline172" Visibility="Visible"  /> 
+<Canvas Canvas.Left="487.528015136719" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc15" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="475.821014404297,454.933685302734 475.821014404297,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline173" Visibility="Visible"  /> 
+<Polyline Points="487.905487060547,454.933685302734 475.821014404297,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline174" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,439.507202148438 463.736602783203,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline175" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,452.810699462891 475.821014404297,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline176" Visibility="Visible"  /> 
+<Polyline Points="487.905487060547,449.79150390625 475.821014404297,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline177" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,434.365112304688 463.736602783203,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline178" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,475.502197265625 475.821014404297,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline179" Visibility="Visible"  /> 
+<Polyline Points="487.905487060547,475.502197265625 475.821014404297,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline180" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,490.928588867188 463.736602783203,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline181" Visibility="Visible"  /> 
+<Polyline Points="487.905487060547,480.644287109375 475.821014404297,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline182" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,496.07080078125 463.736602783203,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline183" Visibility="Visible"  /> 
+<Polyline Points="475.821014404297,492.547607421875 475.821014404297,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline184" Visibility="Visible"  /> 
+<Canvas Canvas.Left="583.528015136719" Canvas.Top="444.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc16" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="571.820983886719,454.933685302734 571.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline185" Visibility="Visible"  /> 
+<Polyline Points="583.905517578125,454.933685302734 571.820983886719,439.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline186" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,439.507202148438 559.736572265625,454.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline187" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,452.810699462891 571.820983886719,367" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline188" Visibility="Visible"  /> 
+<Polyline Points="583.905517578125,449.79150390625 571.820983886719,434.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline189" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,434.365112304688 559.736572265625,449.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline190" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,475.502197265625 571.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline191" Visibility="Visible"  /> 
+<Polyline Points="583.905517578125,475.502197265625 571.820983886719,490.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline192" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,490.928588867188 559.736572265625,475.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline193" Visibility="Visible"  /> 
+<Polyline Points="583.905517578125,480.644287109375 571.820983886719,496.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline194" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,496.07080078125 559.736572265625,480.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline195" Visibility="Visible"  /> 
+<Polyline Points="571.820983886719,492.547607421875 571.820983886719,531.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline196" Visibility="Visible"  /> 
+<Canvas Canvas.Left="395.528015136719" Canvas.Top="443.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc17" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="383.821014404297,453.933685302734 383.821014404297,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline197" Visibility="Visible"  /> 
+<Polyline Points="395.905487060547,453.933685302734 383.821014404297,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline198" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,438.507202148438 371.736511230469,453.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline199" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,451.810699462891 383.821014404297,366" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline200" Visibility="Visible"  /> 
+<Polyline Points="395.905487060547,448.79150390625 383.821014404297,433.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline201" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,433.365112304688 371.736511230469,448.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline202" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,474.502197265625 383.821014404297,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline203" Visibility="Visible"  /> 
+<Polyline Points="395.905487060547,474.502197265625 383.821014404297,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline204" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,489.928588867188 371.736511230469,474.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline205" Visibility="Visible"  /> 
+<Polyline Points="395.905487060547,479.644287109375 383.821014404297,495.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline206" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,495.07080078125 371.736511230469,479.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline207" Visibility="Visible"  /> 
+<Polyline Points="383.821014404297,491.547607421875 383.821014404297,530.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline208" Visibility="Visible"  /> 
+<Canvas Canvas.Left="291.528015136719" Canvas.Top="443.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc18" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="279.821014404297,453.933685302734 279.821014404297,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline209" Visibility="Visible"  /> 
+<Polyline Points="291.905487060547,453.933685302734 279.821014404297,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline210" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,438.507202148438 267.736511230469,453.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline211" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,451.810699462891 279.821014404297,366" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline212" Visibility="Visible"  /> 
+<Polyline Points="291.905487060547,448.79150390625 279.821014404297,433.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline213" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,433.365112304688 267.736511230469,448.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline214" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,474.502197265625 279.821014404297,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline215" Visibility="Visible"  /> 
+<Polyline Points="291.905487060547,474.502197265625 279.821014404297,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline216" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,489.928588867188 267.736511230469,474.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline217" Visibility="Visible"  /> 
+<Polyline Points="291.905487060547,479.644287109375 279.821014404297,495.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline218" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,495.07080078125 267.736511230469,479.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline219" Visibility="Visible"  /> 
+<Polyline Points="279.821014404297,491.547607421875 279.821014404297,530.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline220" Visibility="Visible"  /> 
+<Canvas Canvas.Left="187.52799987793" Canvas.Top="443.328002929688" Width="41.1370010375977" Height="75.5279998779297"><Path Stroke="#FFA0A0A0" StrokeThickness="2" Name="Arc19" Visibility="Visible" ><Path.Data><PathGeometry FillRule="EvenOdd" Figures="M19.7998166433698,58.3181318518305A20.5685005187988,20.5685005187988,0,0,0,7.66609214164438,53.7824602788653" /></Path.Data></Path>
+	<Canvas.RenderTransform>
+	<TransformGroup ><TransformGroup.Children><RotateTransform Angle="90" CenterX="0" CenterY="0" /></TransformGroup.Children></TransformGroup>
+	</Canvas.RenderTransform>
+</Canvas> 
+<Polyline Points="175.820999145508,453.933685302734 175.820999145508,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline221" Visibility="Visible"  /> 
+<Polyline Points="187.905502319336,453.933685302734 175.820999145508,438.507202148438" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline222" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,438.507202148438 163.73649597168,453.933685302734" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline223" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,451.810699462891 175.820999145508,366" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline224" Visibility="Visible"  /> 
+<Polyline Points="187.905502319336,448.79150390625 175.820999145508,433.365112304688" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline225" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,433.365112304688 163.73649597168,448.79150390625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline226" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,474.502197265625 175.820999145508,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline227" Visibility="Visible"  /> 
+<Polyline Points="187.905502319336,474.502197265625 175.820999145508,489.928588867188" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline228" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,489.928588867188 163.73649597168,474.502197265625" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline229" Visibility="Visible"  /> 
+<Polyline Points="187.905502319336,479.644287109375 175.820999145508,495.07080078125" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline230" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,495.07080078125 163.73649597168,479.644287109375" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline231" Visibility="Visible"  /> 
+<Polyline Points="175.820999145508,491.547607421875 175.820999145508,530.330627441406" Stroke="#FFA0A0A0" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline232" Visibility="Visible"  /> 
+<GroupBox Header="Bus A Protective Relays" Name="Groupbox3" Width="288" Height="223.973007202148" Visibility="Visible" Canvas.Left="56" Canvas.Top="672.026977539063" ><Canvas Width="288" Height="223.973007202148" /></GroupBox> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon53" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="784.429016113281" Visibility="Visible"
+	 Tag="XA399516"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon55" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="735.713989257813" Visibility="Visible"
+	 Tag="XA399565"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon57" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="808" Visibility="Visible"
+	 Tag="XA399567"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon59" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="686" Visibility="Visible"
+	 Tag="XA399569"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon61" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="760.570983886719" Visibility="Visible"
+	 Tag="XA399571"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon64" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="711.856994628906" Visibility="Visible"
+	 Tag="XA399575"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon66" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="856" Visibility="Visible"
+	 Tag="XA399577"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon67" Width="40" Height="40" Canvas.Left="284.571014404297" Canvas.Top="832" Visibility="Visible"
+	 Tag="XA399573"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="A1 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text98" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="693"  /> 
+<TextBlock Text="A2 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text99" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="716.856994628906"  /> 
+<TextBlock Text="A3 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text100" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="740.713989257813"  /> 
+<TextBlock Text="A4 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text101" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="765.570983886719"  /> 
+<TextBlock Text="A5 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text102" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="789.429016113281"  /> 
+<TextBlock Text="A6 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text103" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="813"  /> 
+<TextBlock Text="A7 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text104" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="837"  /> 
+<TextBlock Text="A8 Feeder Protection Relay Failure" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text105" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="60.5709991455078" Canvas.Top="861"  /> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon1" Width="40" Height="40" Canvas.Left="1704" Canvas.Top="88" Visibility="Visible"
+	 Tag="XA399506"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon2" Width="40" Height="40" Canvas.Left="1704" Canvas.Top="168" Visibility="Visible"
+	 Tag="ZI399508"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon3" Width="40" Height="40" Canvas.Left="1704" Canvas.Top="144" Visibility="Visible"
+	 Tag="XA399509"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:DigitalInput_Resized_Display_Element_General_icon x:Name="_DigitalInput_Resized_Display_Element_General_icon4" Width="40" Height="40" Canvas.Left="1704" Canvas.Top="192" Visibility="Visible"
+	 Tag="EA399510"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="RoundLamp"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<GroupBox Header="Operator Input" Name="Groupbox7" Width="304" Height="232" Visibility="Visible" Canvas.Left="1264" Canvas.Top="2" ><Canvas Width="304" Height="232" /></GroupBox> 
+<TextBlock Text="815G001 4.16kV Switchgear in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text1" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="14"  /> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon1" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="10" Visibility="Visible"
+	 Tag="Op_815G001_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="815H001 480V Switchgear in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text5" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="38"  /> 
+<TextBlock Text="815H002 480V Switchgear in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text6" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="62"  /> 
+<TextBlock Text="815 UPS in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text7" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="134"  /> 
+<TextBlock Text="815H003 480V Switchgear in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text8" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="86"  /> 
+<TextBlock Text="815H004 480V Switchgear in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text9" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="110"  /> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon2" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="34" Visibility="Visible"
+	 Tag="Op_815H001_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon3" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="58" Visibility="Visible"
+	 Tag="Op_815H002_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon4" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="82" Visibility="Visible"
+	 Tag="Op_815H003_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon5" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="106" Visibility="Visible"
+	 Tag="Op_815H004_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon6" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="130" Visibility="Visible"
+	 Tag="Op_815UPS_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon7" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="154" Visibility="Visible"
+	 Tag="Op_845H001_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon8" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="178" Visibility="Visible"
+	 Tag="Op_845UPS_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<Sadara:BoolOutput_Resized_Display_Element_General_icon x:Name="_BoolOutput_Resized_Display_Element_General_icon9" Width="40" Height="40" Canvas.Left="1536" Canvas.Top="202" Visibility="Visible"
+	 Tag="Op_850UPS_Maint"
+	BaseColor="#FFC0C0C0"
+	ClosedColor="#FFFF00FF"
+	IndicatorType="Square"
+	OpenColor="#FFFF00FF"
+	Outline="True"
+	RaywidthFactor="4"
+	ShowChars="False"
+	ShowColor="True"
+	SmallColor="#FF000000"
+	StatusIndicatorsPosition="None"
+	TravelColor="#FFFF00FF"
+	User3DIcon="True"/> 
+<TextBlock Text="845H001 480V Switchgear in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text10" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="158"  /> 
+<TextBlock Text="845 UPS in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text11" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="182"  /> 
+<TextBlock Text="850 UPS in Maintenance" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="11.997" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text12" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="1272" Canvas.Top="206"  /> 
+<TextBlock Text="Elect SubStation" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text86" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="8" Canvas.Top="10"  /> 
+<TextBlock Text="815_4.16kV&amp;amp;480V Distribution" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="18.662" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text13" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="9" Canvas.Top="39"  /> 
+<GroupBox Header="Current Step" Name="Groupbox8" Width="248" Height="51" Visibility="Visible" Canvas.Left="10" Canvas.Top="70" ><Canvas Width="248" Height="51" /></GroupBox> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button23" Canvas.Left="21" Canvas.Top="88"  Width="223.199996948242" Height="25.5"  AspectView="$'vw::MCC815:SFC Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,10 ,Regular, Bold)" Text="MCC815.Unit.Steps.StepName" TextColor="$'lc::Process Graphics 2 Colors:SymbolLabelColor'" FrameWidth="0." FrameColor1="ARGB(0,0,0,0)" />
+ 
+<IPCS19:AspectLink x:Name="Aspect_View_Button2" Canvas.Left="1590.25598144531" Canvas.Top="457"  Width="15.5939998626709" Height="8"  AspectView="$'vw::EDGFuelTank:Graphic Display:Main View'" Font="Font( &quot;Arial&quot; ,10 ,Regular, Bold)" Text="" TextColor="$'lc::Process Graphics 2 Colors:SymbolLabelColor'" FrameWidth="1." FrameColor1="$'lc::Process Graphics 2 Colors:SymbolFrameColor1'" />
+ 
+<Polyline Points="1572,461 1583.44201660156,461" Stroke="#FFA0A0A0" StrokeThickness="8" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeMiterLimit="1" Name="Polyline233" Visibility="Visible"  /> 
+<Canvas Canvas.Left="1582.84899902344" Canvas.Top="446" Width="11.6960000991821" Height="30"><Path Fill="#FFA0A0A0" Stroke="#FFA0A0A0" StrokeThickness="1" Name="Cone4" Visibility="Visible" ><Path.Data><PathGeometry Figures="M0,0L11.6960000991821,15 0,30 M0,0A11.6960000991821,30,0,0,0,0,30" /></Path.Data></Path></Canvas> 
+</Canvas></Viewbox>
+</MimicTemplate>
+</ResourceDictionary>

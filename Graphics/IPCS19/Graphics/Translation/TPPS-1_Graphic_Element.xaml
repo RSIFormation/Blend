@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for C:\Clients\SADARA\IPCS19\Grpahic_Import\Graphics_XML\TPPS-1_Graphic Element.xgml-->
+<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+	xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+	x:Class="IPCS19.TPPS_1_Graphic_Element"
+	Width="Auto" >
+	<UserControl.Resources>
+	</UserControl.Resources>
+<Grid>
+	<!--Input Property 0 Description="The update rate for all aspect object properties subscribed for"-->
+<Viewbox><Canvas Height="465" Width="285" Background="#FFe1cca8" > 
+<Sadara:Missing ElementName="05_Unit_Navigation_Frame_Unit_Button_Row2" LibraryElement="4133212d-fec6-4bbd-bdfc-499303fc53e2:e17dfe9e-7bbd-4332-8a11-8a01ac7e76d4"  Width="264" Height="95" Canvas.Left="8" Canvas.Top="72" Visibility="Visible"
+	 Tag="TPPS-1"
+	DataContext="{UnitBinding TPPS-1}"/> 
+<Image Name="Image1" Width="16" Height="16" Visibility="Visible" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  Source="im::Sadara Icons:SFC_y16'" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button1" Canvas.Left="50.7999992370605" Canvas.Top="88"  Width="33" Height="33"  AspectView="$'vw::UTILS815:SFC Graphic Display:Main View'" Font="Font( &quot;Tahoma&quot; ,12 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<Image Name="Image2" Width="16" Height="16" Visibility="Visible" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  Source="im::Sadara Icons:Nav_Alm_16_no3d'" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button2" Canvas.Left="88.5999984741211" Canvas.Top="88"  Width="33" Height="33"  AspectView="$'vw::UTILS815:Alarm List:Main View'" Font="Font( &quot;Tahoma&quot; ,12 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<Image Name="Image3" Width="16" Height="16" Visibility="Visible" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  Source="im::Sadara Icons:NAV_Trend_16_r3'" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button3" Canvas.Left="126.400001525879" Canvas.Top="88"  Width="33" Height="33"  AspectView="$'vw::SanitarySumps:SanitarySump1:Main View'" Font="Font( &quot;Tahoma&quot; ,12 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<Image Name="Image4" Width="16" Height="16" Visibility="Visible" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  Source="im::Sadara Icons:SetVal Intiger_16'" /> 
+ 
+<Image Name="Image5" Width="16" Height="16" Visibility="Visible" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  Source="im::Sadara Icons:Nav_Evt_16_no3d'" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button5" Canvas.Left="14" Canvas.Top="127"  Width="33" Height="33"  AspectView="$'vw::UTILS815:Event List:Main View'" Font="Font( &quot;Tahoma&quot; ,12 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+<Sadara:Missing ElementName="04_Section_Navigation_Button_Section_Back_Pane1" LibraryElement="571b88c0-a06a-46f9-8718-30574eba9bb7:5e9e2eed-50c6-40db-a3bf-d1e0336ac710"  Width="32" Height="32" Canvas.Left="202" Canvas.Top="88" Visibility="Visible"
+	 Tag="815_Utilities_Misc"
+	DataContext="{UnitBinding 815_Utilities_Misc}"/> 
+<Image Name="Image6" Width="16" Height="16" Visibility="Visible" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  Source="im::Sadara Icons:NAV_Trend_16_r3'" /> 
+<IPCS19:AspectLink x:Name="Aspect_View_Button6" Canvas.Left="51.4000015258789" Canvas.Top="127"  Width="33" Height="33"  AspectView="$'vw::SanitarySumps: SanitarySump2:Main View'" Font="Font( &quot;Tahoma&quot; ,12 ,Regular, Normal)" Text="" TextColor="Black" FrameWidth="2." FrameColor1="RGB(200,200,200)" />
+ 
+</Canvas></Viewbox>
+</Grid>
+</UserControl>

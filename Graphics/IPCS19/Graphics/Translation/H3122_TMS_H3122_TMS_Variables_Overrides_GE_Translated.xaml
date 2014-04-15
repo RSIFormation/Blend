@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XAML Translation for c:\clients\sadara\ipcs19\Graphics_XML\H3122_TMS_H3122_TMS_Variables&Overrides_GE.xgml-->
+<!--  <ElementId>b4b54551-f070-487a-a006-729097d82b17:014467e1-061a-4c0f-ba7e-3d2eef2cbe63</ElementId> -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Indiss="http://www.indiss.com/wpf/2008"
+	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
+	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
+	xmlns:IPCS19="clr-namespace:IPCS19"
+xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
+xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
+mc:Ignorable="d">
+<MimicTemplate x:Key="H3122_TMS_H3122_TMS_Variables_Overrides_GE_Translated" 	TargetType="{x:Type Mimic}">
+<Viewbox><Canvas Height="940" Width="1630" Background="#FFe1cca8" > 
+<IPCS19:UMHxxxx_TMS_GE x:Name="_UMHxxxx_GE_MOM1" Width="1630" Height="940" Canvas.Left="0" Canvas.Top="0" Visibility="Visible"
+	 Tag="H3122"/> 
+<TextBlock Text="3720" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text1" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="617" Canvas.Top="300"  /> 
+<TextBlock Text="3710" FontFamily="Arial" FontStyle="Normal" FontWeight="Normal" FontSize="15.996" Foreground="#FF000000" Background="#00FFFFFF" TextAlignment="Right" Name="Text2" HorizontalAlignment="Right" VerticalAlignment="Center" Canvas.Left="618" Canvas.Top="261"  /> 
+</Canvas></Viewbox>
+</MimicTemplate>
+</ResourceDictionary>

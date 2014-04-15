@@ -1,0 +1,89 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+<ResourceDictionary.MergedDictionaries>
+<ResourceDictionary Source="Translation/WasteWaterSumps_815_WasteWaterSumps_Translated.xaml" />
+</ResourceDictionary.MergedDictionaries>
+<MimicTemplate x:Key="WasteWaterSumps_815_WasteWaterSumps" UniqueId="WasteWaterSumps_815_WasteWaterSumps">
+    <Grid>
+<!--  Graphic Part  -->
+<Mimic x:Name="GRAPHIC"
+      d:IsLocked="True"
+     MimicTemplate="{StaticResource WasteWaterSumps_815_WasteWaterSumps_Translated}" />
+
+
+<!-- FOD Part -->
+ <Viewbox x:Name='FOD' Visibility='{FODBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FODStart -->
+<Mimic x:Name='ISBLTRENCH' Unit='ISBLTRENCH' MimicTemplate='{DynamicResource INLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='DRAIN_TO_ATM' Unit='DRAIN_TO_ATM' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='DRAIN18' Unit='DRAIN18' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='130'/>
+<Mimic x:Name='FOD815180101' Unit='FOD815180101' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='190'/>
+<Mimic x:Name='FOD815180102' Unit='FOD815180102' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='250'/>
+<Mimic x:Name='FOD815180103' Unit='FOD815180103' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='310'/>
+<Mimic x:Name='SUM_TO_ATMOS4' Unit='SUM_TO_ATMOS4' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='370'/>
+<Mimic x:Name='SUM_TO_DRAIN4' Unit='SUM_TO_DRAIN4' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='430'/>
+<Mimic x:Name='TRENCH' Unit='TRENCH' MimicTemplate='{DynamicResource OUTLETBL_ABB_FOD}' Canvas.Top='10' Canvas.Left='490'/>
+<Mimic x:Name='FOD850990105' Unit='FOD850990105' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='550'/>
+<Mimic x:Name='FOD850990101' Unit='FOD850990101' MimicTemplate='{DynamicResource HANDVALVE_ABB_FOD}' Canvas.Top='10' Canvas.Left='610'/>
+<Mimic x:Name='P9901A' Unit='P9901A' MimicTemplate='{DynamicResource PUMP_ABB_FOD}' Canvas.Top='10' Canvas.Left='670'/>
+<Mimic x:Name='P9901B' Unit='P9901B' MimicTemplate='{DynamicResource PUMP_ABB_FOD}' Canvas.Top='70' Canvas.Left='10'/>
+<Mimic x:Name='P1801' Unit='P1801' MimicTemplate='{DynamicResource PUMP_ABB_FOD}' Canvas.Top='70' Canvas.Left='70'/>
+<Mimic x:Name='HS180107' Unit='HS180107' MimicTemplate='{DynamicResource PUSHBUTTON_ABB_FOD}' Canvas.Top='70' Canvas.Left='130'/>
+<!-- FODEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- Battery Limit Part -->
+ <Viewbox x:Name='BL' Visibility="{BLBinding}" >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- BLStart -->
+<Mimic x:Name='UW_FR_DISTRIBUTION' Unit='UW_FR_DISTRIBUTION' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='UW_TO_PUMP' Unit='UW_TO_PUMP' MimicTemplate='{DynamicResource OUTLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='WW_TO_9912' Unit='WW_TO_9912' MimicTemplate='{DynamicResource OUTLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='130'/>
+<Mimic x:Name='UW_FR_2935_1' Unit='UW_FR_2935_1' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='190'/>
+<Mimic x:Name='UW_FR_DISTRIBUTION1' Unit='UW_FR_DISTRIBUTION1' MimicTemplate='{DynamicResource INLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='250'/>
+<Mimic x:Name='UW_TO_PUMP1' Unit='UW_TO_PUMP1' MimicTemplate='{DynamicResource OUTLETBL_ABB_BL}' Canvas.Top='10' Canvas.Left='310'/>
+<!-- BLEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+<!-- FAILURE Part -->
+ <Viewbox x:Name='FAILURE' Visibility='{FAILUREBinding}' >
+	<Canvas Width="1630" Height="940"> 
+
+
+		<!-- FAILUREStart -->
+<Mimic x:Name='P9901A_FAILURE' Unit='P9901A' MimicTemplate='{DynamicResource PUMP_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='10'/>
+<Mimic x:Name='P9901B_FAILURE' Unit='P9901B' MimicTemplate='{DynamicResource PUMP_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='70'/>
+<Mimic x:Name='P1801_FAILURE' Unit='P1801' MimicTemplate='{DynamicResource PUMP_ABB_FAILURE}' Canvas.Top='10' Canvas.Left='130'/>
+<!-- FAILUREEnd -->
+
+
+
+
+	</Canvas>
+</Viewbox>
+
+
+ </Grid>
+ </MimicTemplate>
+</ResourceDictionary>

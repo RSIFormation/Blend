@@ -1,22 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--XAML Translation for c:\clients\sadara\ipcs19\Graphics_XML\H1111_H1111_DetailedDisplay.xgml-->
-<!--  <ElementId>7e2830de-0893-422b-ac5f-fbf76400e636:014467e1-061a-4c0f-ba7e-3d2eef2cbe63</ElementId> -->
+﻿
+<!--  XAML Translation for c:\clients\sadara\ipcs19\Graphics_XML\H1111_H1111_DetailedDisplay.xgml  -->
+<!--  <ElementId>7e2830de-0893-422b-ac5f-fbf76400e636:014467e1-061a-4c0f-ba7e-3d2eef2cbe63</ElementId>  -->
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
-xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
-xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	xmlns:Indiss="http://www.indiss.com/wpf/2008"
-	xmlns:OTSBehavior="http://www.indiss.com/OTS/Behavior"
-	xmlns:ActionOTS="http://www.indiss.com/OTS/Action"
-	xmlns:IPCS19="clr-namespace:IPCS19"
-xmlns:ABBLibrary="clr-namespace:ABBLibrary;assembly=ABBLibrary"
-xmlns:Sadara="clr-namespace:SadaraLibrary;assembly=SadaraLibrary"
-mc:Ignorable="d">
-<MimicTemplate x:Key="H1111_H1111_DetailedDisplay_Translated" 	TargetType="{x:Type Mimic}">
-	<Border Background="LightGray" VerticalAlignment="Stretch" d:DesignWidth="256.693" d:DesignHeight="275.16">
-		<TextBlock Text="Graphic generated Layer" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="96"/>
-	</Border>
-	</MimicTemplate>
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="d">
+    <MimicTemplate x:Key="H1111_H1111_DetailedDisplay_Translated" TargetType="{x:Type Mimic}">
+        <Border VerticalAlignment="Stretch"
+                Background="LightGray"
+                d:DesignHeight="275.16"
+                d:DesignWidth="256.693">
+            <TextBlock HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="96"
+                       Text="Graphic generated Layer" />
+        </Border>
+    </MimicTemplate>
 </ResourceDictionary>

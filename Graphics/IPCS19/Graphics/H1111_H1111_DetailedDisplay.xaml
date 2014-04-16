@@ -3,60 +3,70 @@
                     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                     mc:Ignorable="d">
-  <ResourceDictionary.MergedDictionaries>
-    <ResourceDictionary Source="Translation/H1111_H1111_DetailedDisplay_Translated.xaml" />
-  </ResourceDictionary.MergedDictionaries>
-  <MimicTemplate x:Key="H1111_H1111_DetailedDisplay" UniqueId="H1111_H1111_DetailedDisplay">
-    <Grid>
-      <!--  Graphic Part  -->
-      <Mimic x:Name="GRAPHIC"
-             d:IsHidden="True"
-             d:IsLocked="True"
-             MimicTemplate="{StaticResource H1111_H1111_DetailedDisplay_Translated}" />
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Translation/H1111_H1111_DetailedDisplay_Translated.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <MimicTemplate x:Key="H1111_H1111_DetailedDisplay" UniqueId="H1111_H1111_DetailedDisplay">
+        <Grid>
+            <!--  Graphic Part  -->
+            <Mimic x:Name="GRAPHIC"
+                   d:IsHidden="True"
+                   d:IsLocked="True"
+                   MimicTemplate="{StaticResource H1111_H1111_DetailedDisplay_Translated}" />
 
 
-      <!--  FOD Part  -->
-      <Grid x:Name="FOD"
-            Visibility="{FODBinding}"
-            Opacity="0.4" >
-                <Grid Width="1630" Height="940" Background="pink">
+            <!--  FOD Part  -->
+            <Grid x:Name="FOD"
+                  Opacity="0.4"
+                  Visibility="{FODBinding}">
+                <Grid Width="1630"
+                      Height="940"
+                      Background="pink">
                     <TextBlock Margin="426.314,437.62,559.758,374.635"
-                     HorizontalAlignment="Stretch"
-                     VerticalAlignment="Stretch"
-                     FontSize="96"
-                     Text="FOD LAYER" d:LayoutOverrides="Height" Foreground="#FF0F0008" />
+                               HorizontalAlignment="Stretch"
+                               VerticalAlignment="Stretch"
+                               FontSize="96"
+                               Foreground="#FF0F0008"
+                               Text="FOD LAYER"
+                               d:LayoutOverrides="Height" />
                 </Grid>
-      </Grid>
+            </Grid>
 
 
-      <!--  Battery Limit Part  -->
-            <Grid x:Name="BL" Opacity="0.4" Visibility="{BLBinding}" d:IsLocked="True">
-                <Grid Width="1630" Height="940" Background="green">
+            <!--  Battery Limit Part  -->
+            <Grid x:Name="BL"
+                  d:IsLocked="True"
+                  Opacity="0.4"
+                  Visibility="{BLBinding}">
+                <Grid Width="1630"
+                      Height="940"
+                      Background="green">
                     <TextBlock Margin="368.102,327.671,617.97,0"
-                     HorizontalAlignment="Stretch"
-                     VerticalAlignment="Top"
-                     FontSize="96"
-                     Text="BL LAYER" Foreground="White" />
+                               HorizontalAlignment="Stretch"
+                               VerticalAlignment="Top"
+                               FontSize="96"
+                               Foreground="White"
+                               Text="BL LAYER" />
                 </Grid>
-      </Grid>
+            </Grid>
 
 
-      <!--  FAILURE Part  -->
-      <Grid x:Name="FAILURE"
-            Opacity="0.4"
-            Visibility="{FAILUREBinding}">
-        <Grid Width="1630"
-              Height="940"
-              Background="#FFF80404">
-          <TextBlock Margin="264.614,219.871,721.458,0"
-                     HorizontalAlignment="Stretch"
-                     VerticalAlignment="Top"
-                     FontSize="96"
-                     Text="FAILURE LAYER" />
+            <!--  FAILURE Part  -->
+            <Grid x:Name="FAILURE"
+                  Opacity="0.4"
+                  Visibility="{FAILUREBinding}">
+                <Grid Width="1630"
+                      Height="940"
+                      Background="#FFF80404">
+                    <TextBlock Margin="264.614,219.871,721.458,0"
+                               HorizontalAlignment="Stretch"
+                               VerticalAlignment="Top"
+                               FontSize="96"
+                               Text="FAILURE LAYER" />
+                </Grid>
+            </Grid>
+
+
         </Grid>
-      </Grid>
-
-
-    </Grid>
-  </MimicTemplate>
+    </MimicTemplate>
 </ResourceDictionary>
